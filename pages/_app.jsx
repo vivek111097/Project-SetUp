@@ -14,10 +14,10 @@ function MyApp({ Component, pageProps }) {
         <Head>
           {/* All meta tags and Title here */}
           <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-          <meta charset="UTF-8" />
-          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta charSet="UTF-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
-          <title>HeroBiz</title>
+          <title>UpStox</title>
           <meta content="" name="description" />
           <meta content="" name="keywords" />
         </Head>

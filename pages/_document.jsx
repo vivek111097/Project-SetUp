@@ -51,7 +51,7 @@ class MyDocument extends Document {
 
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 
                     <link rel="stylesheet" href="assets/css/mgfp.css" />
                     <link rel="stylesheet" href="assets/css/metlife-us.min.css" type="text/css" />
@@ -73,18 +73,18 @@ class MyDocument extends Document {
                     <Script src="assets/vendor/swiper/swiper-bundle.min.js" />
                     <Script src="assets/vendor/php-email-form/validate.js" />
                     <Script src="assets/js/main.js" />
-                    <script src="bower_components/aos/dist/aos.js"></script> 
+                    <Script src="bower_components/aos/dist/aos.js"/>
 
 
-                    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-                    <script type="text/javascript" src="assets/js/global.js"></script>
-                    <script type="text/javascript" src="assets/js/metlife-us.min.js" defer></script>
-                    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+                    <Script src="https://code.jquery.com/jquery-3.5.1.min.js"/>
+                    <Script type="text/javascript" src="assets/js/global.js"/>
+                    <Script type="text/javascript" src="assets/js/metlife-us.min.js" defer/>
+                    <Script type="text/javascript" src="assets/js/owl.carousel.min.js"/>
 
-                    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-                    <script type="text/javascript" src="assets/js/dental-master.js"></script>
-                    <script src="https://maps.googleapis.com/maps/api/js" defer></script>
-                    <script type="text/javascript" src="assets/js/homepage/homepage.js" defer></script>
+                    <Script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"/>
+                    <Script type="text/javascript" src="assets/js/dental-master.js"/>
+                    <Script src="https://maps.googleapis.com/maps/api/js" defer/>
+                    <Script type="text/javascript" src="assets/js/homepage/homepage.js" defer/>
                 </body>
             </Html>
         )
