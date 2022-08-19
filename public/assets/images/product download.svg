@@ -1,0 +1,6 @@
+<svg id="Icon_Download" data-name="Icon/Download" xmlns="http://www.w3.org/2000/svg" width="40" height="37" viewBox="0 0 40 37">
+  <path id="Path" d="M34,37H5.6A5.657,5.657,0,0,1,0,31.284V0H29.688V31.284C29.688,34.441,30.909,37,34,37Z" transform="translate(0)" fill="#0090da"/>
+  <path id="Path-2" data-name="Path" d="M5.6,3.086V0H34V3.086a6.134,6.134,0,0,1-1.648,4.191A5.407,5.407,0,0,1,28.4,9H0A5.407,5.407,0,0,0,3.949,7.277,6.134,6.134,0,0,0,5.6,3.086Z" transform="translate(6 28)" fill="#0061a0"/>
+  <rect id="Rectangle" width="2" height="7" transform="translate(14 9)" fill="#fff"/>
+  <path id="Path-3" data-name="Path" d="M7,7l7-7H0L7,7Z" transform="translate(8 15)" fill="#fff"/>
+</svg>

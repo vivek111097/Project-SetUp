@@ -1,0 +1,2442 @@
+/*CSS For Datepicker Start Here*/
+
+.ui-datepicker .ui-datepicker-header {
+    background: #007abc;
+    color: white;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    color: white;
+}
+
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+    padding: 0;
+    color: white;
+    border: none;
+    font-weight: bold;
+    -webkit-appearance: menulist;
+    width: 60px;
+}
+
+.ui-datepicker select.ui-datepicker-month option,
+.ui-datepicker select.ui-datepicker-year option {
+    color: black;
+}
+
+.ui-datepicker-calendar .ui-state-hover, .ui-widget-content .ui-state-hover, 
+.ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content 
+.ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: none;
+    background-color: transparent !important;
+    color: #212529;
+
+}
+
+.ui-datepicker-calendar .ui-state-hover, .ui-widget-content .ui-state-hover, 
+.ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, 
+.ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: none;
+    background-color: #eee !important;
+    color: #212529;
+    border-radius: 4px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{
+    border: none;
+    background: transparent;
+    color: #212529;
+    text-align: center;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.ui-datepicker td {
+    padding: 0;
+    width: 30px;
+    height: 26px;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    right: 0px;
+    top:13px;
+    background-image: url(../images/rightArrow.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    left: 10px;
+    top:13px;
+    background-image: url(../images/leftArrow.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    border: none;
+    /*background: #007fff;*/
+    font-weight: normal;
+    background-color: #04c !important;
+    background-image: linear-gradient(to bottom, #08c, #04c) !important;
+    background-repeat: repeat-x !important;
+    border-color: rgba(0, 0, 0, .1) rgba(0, 0, 0, .1) rgba(0, 0, 0, .25);
+    color: #fff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 25%);
+    border-radius: 4px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    padding: 0px 0;
+}
+
+.ui-datepicker-header .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus {
+    border: 0;
+    background-color: transparent !important;
+    cursor: pointer;
+}
+
+.ui-datepicker-calendar .ui-state-default:hover
+{
+    background-color: #eee !important;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    cursor: pointer;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+
+     display: none !important; 
+}
+
+.calIcon {
+    max-width: 16px;
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    pointer-events: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.static-form-container .form-field-container.dateField input {
+    cursor: pointer;
+}
+
+
+/*CSS For Datepicker End Here*/
+
+.homecontainer .alignRight{
+    justify-content: flex-end;
+}
+
+.navstripList li{
+    position: relative;
+}
+
+.navstripList .playBtn{
+    position: absolute;
+    top: 50%;
+    right: -27px;
+    transform: translate(0px, -50%);
+}
+.navstripWrap ul li.playBtn a{
+    display: inherit;
+    padding: 0;
+    font-size: inherit;
+}
+
+.navstripList .playBtn img{
+    width: auto;
+}
+
+.homepagesection{
+    background-image: url(../images/homeBanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 550px;
+}
+
+.uincontentSec p{
+    margin: 0;
+    font-size: 12px;
+    color: #333333;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    display: none;
+}
+
+.riderpopupcomponent .suitableinnerpopup.availableplanSec{
+    width: 100%;
+    max-width: 1050px;
+    padding: 35px 108px 10px;
+    top: 2em;
+}
+
+.availableplanSec h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+}
+
+.availableplanCard .availableplanTitle{
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+.availableplanTitle .futureplanLogo span{
+    font-size: 26px;
+}
+
+.availableplanTitle .futureplanLogo p{
+    font-size: 26px;
+    padding: 5px 15px;
+    line-height: 29px;
+}
+
+.availableplanCard .supTxt{
+    font-size: 12px;
+}
+
+.availableplanCard.suitlistsection .suitable-btn {
+    bottom: 27px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.availableplanCard .suitable-btn .suitablecallbtn{
+    width: 100%;
+    
+}
+
+.availableplanCard .suitable-btn .btn-brand-1st {
+    width: 100%;
+    margin-right: 0;
+    padding: 13px 0;
+}
+
+.availableplanCard .suitable-btn .suitablebuybutton{
+margin-left: 15px;
+}
+
+.availableplanCard .suitable-contentbox{
+    padding-right: 45px;
+}
+
+.availableplanCard  .suitlist {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.availableplanCard.suitlistsection  .suitlist .thumbmainlist{
+    width: 49%;
+}
+
+.availableplanCard.suitlistsection .suitlist .thumbmainlist.threeCards{
+    width: 32%;
+}
+
+.availableplanCard.suitlistsection  .suitlist.suitdesktoplist .thumbmainlist{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 20px;
+    height: 536px;
+    
+}
+
+.availableplanCard.suitlistsection  .suitlist.suitdesktoplist .thumbmainlist.bgbox{
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.updatedetailsWrap .updatedetailsContent{
+    text-align: center;
+}
+
+.riderpopupcomponent .suitableinnerpopup.otppopupSec.updatedetailSec{
+    max-width: 618px;
+    width: 100%;
+    padding: 30px 60px 30px;
+}
+
+.updatedetailsWrap .updatedetailsContent p{
+    padding: 10px 0 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.updatedetailsWrap .updatedetailsContent p a{
+    color: #000000;
+    font-weight: 700;
+}
+
+.otppopupSec .suitablepoptitle .updatedetailsContent h3{
+    padding: 0 20px;
+}
+
+.riderpopupcomponent .suitableinnerpopup.otppopupSec.agelimitSec{
+    width: 100%;
+    max-width: 402px;
+}
+
+.otppopupSec.welcomepopupSec.agelimitSec .verifyBtn{
+        max-width: 189px;
+}
+
+.otperrorTxt{
+    color: #DB1818;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    display: none;
+}
+
+@media screen and (max-width: 1366px) {
+
+    .availableplansWrap .availableplanCard.suitlistsection  .suitlist.suitdesktoplist .thumbmainlist{
+        
+        height: 470px;
+        
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .riderpopupcomponent .suitableinnerpopup.availableplanSec {
+        width: 100%;
+        max-width: 900px;
+        padding: 35px 90px 10px;
+    }
+
+    .availableplanCard.suitlistsection .suitlist .thumbmainlist {
+        height: 510px;
+    }
+
+    .availableplanTitle .futureplanLogo p {
+        font-size: 24px;
+            padding: 5px 9px;
+        
+    }
+    .availableplanCard.suitlistsection .suitable-btn {
+        
+        width: 89%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .availableplanCard.suitlistsection .suitlist .thumbmainlist {
+        width: 100%;
+    }
+    .riderpopupcomponent .suitableinnerpopup.availableplanSec {
+        width: 100%;
+        max-width: 700px;
+        padding: 35px 50px 10px;
+    }
+
+    .navstripList .playBtn{
+            right: -25px;
+    }
+
+    .availableplanCard.suitlistsection .suitlist .thumbmainlist {
+        height: 380px;
+    }
+    .availableplanCard.suitlistsection .suitable-btn {
+        width: 95%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    .uincontentSec p{
+        display: block;
+            margin-bottom: 10px;
+    }
+    .homepagesection{
+        background-image: none;
+        min-height: auto;
+        
+    }
+    .riderpopupcomponent .suitableinnerpopup.availableplanSec {
+        width: 100%;
+        max-width: 328px;
+        padding: 35px 15px 10px;
+    }
+
+    .availableplanSec h3{
+        font-size: 16px;
+        
+    }
+    .availableplanTitle .futureplanLogo span {
+        font-size: 20px;
+    }
+    .availableplanTitle .futureplanLogo p {
+        font-size: 20px;
+        padding: 3px 15px;
+    }
+    .availableplanCard .availableplanTitle {
+        margin-bottom: 15px;
+    }
+    .availableplanCard .suitable-btn .btn-brand-1st {
+        
+        padding: 13px 0px;
+        font-size: 14px;
+    }
+
+    .availableplanCard.suitlistsection .suitable-contentbox li {
+        font-size: 14px;
+        line-height: 22px;
+            margin-bottom: 5px;
+    }
+    .availableplanCard .suitable-contentbox {
+        padding-right: 0;
+    }
+    .availableplanCard.suitlistsection .suitlist .thumbmainlist {
+        width: 100%;
+        height: 418px;
+        margin-top: 0;
+        padding: 15px 15px 15px 15px;
+    }
+    .availableplanCard.suitlistsection .suitable-btn {
+        bottom: 15px;
+        width: 90%;
+    }
+    .riderpopupcomponent .suitableinnerpopup.updatedetailSec {
+        max-width: 328px;
+        width: 100%;
+        padding: 35px 20px 25px 20px;
+    }
+    .riderpopupcomponent .suitableinnerpopup.otppopupSec.agelimitSec {
+        width: 100%;
+        max-width: 328px;
+        padding: 50px 10px 30px;
+
+
+    }
+
+    .homesubmitblock .homesubmitcheck.tearmCondations label p{
+        line-height: 14px;
+    }
+
+    .riderpopupcomponent .suitableinnerpopup.otppopupSec.updatedetailSec {
+        max-width: 328px;
+        width: 100%;
+        padding: 50px 10px 30px;
+    }
+    .updatedetailsWrap .updatedetailsContent p {
+        padding: 10px 0 15px;
+        
+    }
+    .otppopupSec.welcomepopupSec.agelimitSec .verifyBtn {
+        max-width: 210px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+/*........................CSS For Screen 18 Start Here........................*/
+
+
+.personaldetailSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.residentCont .note2{
+    margin-top: 20px;
+    color: #A50F0F;
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.personalDetailsWrap .firstSec label {
+    width: 130px;
+}
+
+.personalDetailsWrap .secondSec label {
+    width: 75px;
+}
+
+.personalDetailsWrap .secondSec {
+    padding-left: 30px;
+}
+
+.personalDetailsWrap .detailsSec.firstSec {
+    border-right: 1px solid #d9dad5;
+    display: flex;
+}
+
+.inputDetailsSec {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.radioList {
+    padding:0;
+    margin: 0;
+}
+
+.radioList li {
+    width: 50%;
+}
+
+.addressDetailsCont, .residDetailsCont {
+    display: none;
+}
+
+.kyc {
+    position: absolute;
+    width: 128px;
+    height: 18px;
+    background: #FFC600;
+    border-radius: 20px;
+    text-align: center;
+    right: 30px;
+    top: -10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.kyc span {
+    padding-left: 15px;
+}
+
+.kyc:before, .kyc:after {
+    content:''; 
+    height:12px; 
+    width:2px; 
+    display:block; 
+    background:#333; 
+    position:absolute; 
+    top:3px; 
+    left: 22px;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+}
+
+.kyc:before{
+    height:7px;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);
+    -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg); 
+    top:7px; 
+    left:16px;
+ }
+
+ .panCardBlock .form-field-container {
+    margin-bottom: 0;
+ }
+
+ .static-form-container.block2 .form-field-container select{
+        background: #F2F2F2;
+            border-color: #A7A8AA;
+ }
+
+ @media screen and (max-width: 991px) {
+        .personalDetailsWrap .detailsSec.firstSec {
+        
+        flex-direction: column;
+    }
+    .detailsSec.secondSec {
+        width: 100%;
+    }
+    .personalDetailsWrap .secondSec {
+        padding-left: 15px;
+    }
+ }
+
+ @media (max-width: 767px) {
+    .personalDetailsWrap .detailsCont, .personalDetailsWrap .detailsSec.firstSec {
+        display: block;
+    }
+
+    .personalDetailsWrap .firstSec label, .personalDetailsWrap .secondSec label {
+        width: 125px;
+    }
+
+    .detailsSec {
+        padding: 0px 15px;
+    }
+
+    .personalDetailsWrap .secondSec {
+        padding-left: 15px;
+
+    }
+
+    .personalDetailsWrap .detailsSec.firstSec { 
+        border-right: none;
+        width: 100%;
+    }
+
+    .detailsSec.secondSec {
+        width: 100% !important;
+    }
+
+    .flex-inner .block1, .flex-inner .block2 {
+        width: 49%;
+    }
+
+    .flex-inner .block1 {
+        margin-right: 2%;
+    }
+
+    .ownerDetailsCont .flex-inner .block1 {
+        width: 66%;
+        margin-right: 1%;
+    }
+
+    .ownerDetailsCont .flex-inner .block2 {
+        width: 33%;
+    }
+
+    .panCardBlock .form-field-container {
+        margin-bottom: 25px;
+     } 
+
+     .educaQualificBlock .form-field-container {
+        margin-bottom: 0;
+     }
+     .personalDetailsWrap label{
+        font-size: 14px;
+     }
+     .inputDetailsSec .details {
+        font-size: 14px;
+    }
+    .formElementsSec .topSpace {
+        margin-top: 0;
+    }
+    .formElementsSec .customeradioBtn.topSpace {
+        margin-top: 15px;
+    }
+    .personaldetailSec .formElementsSec {
+        padding: 15px 0px 20px;
+    }
+}
+
+ @media (max-width: 480px) {
+    .personalDetailsWrap .firstSec label, .personalDetailsWrap .secondSec label {
+        width: 95px;
+    }
+}
+
+
+
+/*........................CSS For Screen 18 End Here........................*/
+
+
+
+/*........................CSS For Screen 21 Start Here........................*/
+
+.nomineedetailSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nomineedetailSec:before {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:4px;
+    background:linear-gradient(to right, #008EDD, #A2CF42);
+    top:0px;
+    left:0;
+}
+
+.appointeedetailsSec{
+    display: block;
+    
+}
+
+
+/*........................CSS For Screen 21 End Here........................*/
+
+
+/*........................CSS For Screen 22 Start Here........................*/
+
+.accountdetailSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.accountdetailWrap .secTitle {
+    margin-bottom: 5px;
+}
+
+.listTitle {
+    font-size: 18px;
+    line-height: 19.5px;
+    font-weight: bold;
+}
+
+.benefitList ul {
+    padding-left: 15px;
+}
+
+.benefitList ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    margin-bottom: 10px;
+    list-style: decimal;
+}
+
+@media screen and (max-width: 767px) {
+
+    .accountdetailSec .formElementsSec{
+        padding: 0px 0px 30px;
+    }
+}
+
+/*........................CSS For Screen 22 End Here........................*/
+
+
+/*........................CSS For Screen 24 Start Here........................*/
+
+
+.summarydetailSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+/***Summary Details Box Start***/
+.summaryDetailsWrap {
+    margin-bottom: 36px;
+}
+
+.summaryDetailsWrap .secTitle {
+    font-size: 18px;
+    line-height: 19.68px;
+    font-weight: 500;
+    color: #222222;
+}
+
+.detailsCont {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 0px;
+    border: 1px solid #C2EAFF;
+    border-radius: 2px;
+}
+.summaryDetailsWrap .inputDetailsSec:last-child{
+    margin-bottom: 0;
+}
+
+.detailsSec {
+    /*width: 50%;*/
+    padding: 0px 15px;
+}
+
+.detailsSec.firstSec {
+    border-right: 1px solid #C2EAFF;
+    width: 58%;
+}
+
+.detailsSec.secondSec{
+    width: 42%;
+}
+
+.inputDetailsSec {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.summaryDetailsWrap label {
+    color: #333333;
+    width: 130px;
+    margin-bottom: 0;
+}
+
+.summaryDetailsWrap .firstSec label{
+    width: 160px;
+}
+
+.summaryDetailsWrap:first-child .firstSec .inputDetailsSec label{
+    width: 160px;
+}
+
+.summaryDetailsWrap .firstSec .inputDetailsSec .extraPadding{
+    padding-left: 0px;
+}
+
+.summaryDetailsWrap .firstSec .inputDetailsSec{
+    margin-left: 5px;
+}
+
+.ownerImg {
+    margin-bottom: 0px;
+}
+
+.ownerImg img {
+    width: 60px;
+}
+
+.summaryDetailsWrap.gstSec .inputDetailsSec{
+        margin-left: 5px;
+}
+
+.summaryDetailsWrap.totalSec .inputDetailsSec{
+        margin-left: 5px;
+}
+
+
+.secTitleWrap {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secTitleWrap .secTitle {
+    width: auto;
+}
+
+.edit {
+    margin-left: 10px;
+    position: relative;
+    top: -6px;
+    left: 0px;
+}
+
+.lastSec {
+    margin-bottom: 0;
+}
+
+.inputDetailsSec label.boldText {
+    font-weight: bold;
+    color: #000;
+}
+
+.summaryDetailsWrap.gstSec {
+    margin-top: 30px;
+}
+
+.summaryDetailsWrap.gstSec .detailsSec, .summaryDetailsWrap.totalSec .detailsSec {
+    width: 100%;
+}
+
+.summaryDetailsWrap.gstSec .inputDetailsSec label, .summaryDetailsWrap.totalSec .inputDetailsSec label {
+    width: 300px;
+}
+
+.summaryDetailsWrap.gstSec .details, .summaryDetailsWrap.totalSec .details {
+    /*width: 50px;*/
+    text-align: right;
+}
+
+.summaryDetailsWrap.totalSec .inputDetailsSec {
+    margin-bottom: 0;
+}
+
+.summaryDetailsWrap.totalSec .detailsCont{
+    border-top: none;
+}
+
+/***Checkbox Changes Start***/
+.checkboxCont {
+    margin: 25px 0px;
+}
+
+.checkboxCont .homesubmitcheck.tearmCondations label p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.summarydetailSec .ruppeeIcon{
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.checkboxCont .homesubmitcheck{
+    margin-bottom: 10px;
+}
+
+.checkboxCont a {
+    text-decoration: underline;
+    color: #007abd;
+}
+/***Checkbox Changes End***/
+
+/***Available Payment Style Start***/
+
+.availablePaySec {
+    margin-bottom: 40px;
+}
+
+.blockTitle {
+    font-size: 18px;
+    line-height: 19.5px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.availablePaySec ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.availablePaySec ul li {
+    display: flex;
+    align-items: center;
+}
+
+.availablePaySec ul li img {
+    width: auto;
+}
+
+.availablePaySec ul li span {
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 8px;
+}
+/***Available Payment Style End***/
+
+.download {
+    display: flex;
+    color: #007abd;
+    font-size: 12px;
+    margin: 0 auto 15px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.download img {
+    width: 14px;
+    height: 17px;
+}
+
+.download span {
+    margin-left: 5px;
+}
+
+.otp-btn .btn-brand-1st{
+    width: 100%;
+    max-width: 288px;
+    padding: 15px 0;
+}
+
+@media (max-width: 1199px) {
+    .details {
+        width: auto;
+    }
+    .detailsSec.firstSec {
+        width: 50%;
+    }
+    .summaryDetailsWrap .firstSec .inputDetailsSec .extraPadding{
+        padding-left: 55px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .detailsSec.firstSec {
+        width: 100%;
+    }
+    .inputDetailsSec {
+        
+        margin-left: 5px;
+    }
+    .details {
+        width: auto;
+    }
+    .summaryDetailsWrap .firstSec .inputDetailsSec .extraPadding{
+        padding-left: 0px;
+    }
+    .summaryDetailsWrap:first-child .firstSec .inputDetailsSec label {
+        width: 130px;
+    }
+    .summaryDetailsWrap .firstSec label {
+        width: 130px;
+    }
+}
+
+@media (max-width: 767px) {
+    .summarydetailSec {
+        display: block;
+    }
+    .summaryDetailsWrap {
+        margin-bottom: 29px;
+    }
+    .detailsSec {
+        width: 100%;
+    }
+
+    .detailsSec.firstSec {
+        border: none;
+    }
+
+    .lastSec {
+        margin-bottom: 0;
+    }
+
+    .availablePaySec ul {
+        flex-wrap: wrap;
+    }
+
+    .availablePaySec ul li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .availablePaySec ul li span {
+        margin-left: 20px;
+    }
+
+    .availablePaySec ul li img {
+        width: auto;
+    }
+    .summarydetailSec .inputDetailsSec .details{
+        font-size: 12px;
+    }
+    .summaryDetailsWrap .firstSec .inputDetailsSec {
+        margin-left: 0;
+    }
+    .otp-btn .btn-brand-1st {
+        width: 100%;
+        max-width: 100%;
+    }
+    .summaryDetailsWrap .inputDetailsSec:last-child {
+        margin-bottom: 10px;
+    }
+    .summaryDetailsWrap .detailsCont{
+        padding: 12px 0px 0;
+    }
+    .summaryDetailsWrap:nth-child(2) .inputDetailsSec .details {
+        width: 190px;
+    }
+    .summaryDetailsWrap:first-child .firstSec .inputDetailsSec:first-child .details{
+            padding-left: 20px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .detailsSec {
+        padding: 0px 10px;
+    }
+
+    .inputDetailsSec {
+        font-size: 14px;
+            margin-left: 0;
+    }
+
+    .inputDetailsSec label {
+        width: 130px;
+    }
+    .inputDetailsSec .details {
+        width: auto;
+    }
+}
+
+
+/***Summary Details Box End***/
+
+
+/*........................CSS For Screen 24 End Here........................*/
+
+
+
+/*........................CSS For Screen 17 End Here........................*/
+
+
+.requestbox img{
+    margin: auto;
+    width: 56px;
+    display: block;
+}
+.requestbox{
+    text-align: center;
+    background: #F2F2F2;
+    padding: 40px 0px 40px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.requestbox h3{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 16px 0px 7px 0px;
+    color: #000000;
+}
+.requestbox p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+
+}
+
+.requestbox .request-mobile{
+display: none;
+}
+
+.requestbox a{
+    color: #0090da;
+}
+
+.requestbox a:hover{
+    text-decoration: none;
+}
+
+@media(max-width: 767px){
+    .requestbox .request-desktop{display: none;}
+    .requestbox .request-mobile{display: block;}
+    .query-number a{
+        font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    }
+    .addspace{
+        padding: 0px 0px;
+        box-sizing: border-box;
+    }
+    .requestbox h3{
+        font-size: 20px;
+    }
+    .requestbox{
+        padding: 30px 10px 30px 10px;
+    }
+}
+
+
+/*........................CSS For Screen 17 End Here........................*/
+
+
+
+/*........................CSS For Screen 28 Start Here........................*/
+
+.congratulationBox{
+    box-shadow: 5px 5px 18px #0000001c;
+    text-align: center;
+    margin-top: 10px;
+    padding: 45px 20px 20px 20px;
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.congratulationBox img{
+    width: 64px;
+    height: 63px;
+    margin-bottom: 20px;
+}
+.congratulationBox h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #1D1D1B;
+    font-weight: 500;
+}
+
+.congratulationBox p{
+    line-height: 32px;
+    width: 100%;
+    max-width: 500px;
+    padding: 0px 30px;
+    margin: 0 auto;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+
+.congratulationBox .rememberPlan{
+    display: block;
+}
+.congratulationBox .applicationNumber{
+    font-size: 14px;
+    color: #7d7d7d;
+    padding: 15px 0;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+.appNumber{
+    color: #333333;
+   font-size: 14px;
+   font-weight: bold;
+}
+.downloadDetails a{
+    color: #0090DA;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    font-size: 12px;
+}
+.congratulationBox .downimage img{
+    width: auto;
+    height: auto;
+}
+
+.congratulationBox .downimage{
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+
+.downloadDetails a:first-child{
+    margin-right: 40px;
+}
+.congratulationButton a{
+    width: 100%;
+    max-width: 346px;
+    background: #007abd;
+    display: block;
+    margin: auto;
+    height: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+@media(max-width: 767px){
+    .downloadDetails a{
+        display: block;
+    }
+    .downloadDetails a:first-child{
+         margin-right: 0px;
+    }
+    .congratulationBox .downimage img{
+        width: 20px;
+    height: 23px;
+    }
+    .congratulationBox p{
+        padding: 0px 10px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .downloadDetails{
+        margin-top: 30px;
+    }
+    .planrow{
+        padding: 0px 0px;
+        box-sizing: border-box;
+    }
+    .congratulationButton a{
+            width: 100%;
+            border-radius: 3px;
+            max-width: 283px;
+            margin-top: 10px;
+    }
+    .congratulationBox h3 {
+        font-size: 28px;
+        
+    }
+    .congratulationBox {
+        
+        padding: 45px 0px 20px 0px;
+    }
+    .congratulationBox .applicationNumber{
+            padding: 5px 0;
+    }
+}
+
+
+/*........................CSS For Screen 28 End Here........................*/
+
+
+/*........................CSS For Screen 11 Start Here........................*/
+
+
+
+.adddetailSec .addharInput{
+    width: 40%;
+        position: relative;
+}
+
+.addharInput .pwdeyeIcon{
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-image: url(../images/hide.png);
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-position: center;
+
+}
+
+.addharInput .pwdeyeIcon.active {
+    background-image: url(../images/show.png);
+}
+
+.aadharcheckBox .homesubmitcheck.tearmCondations label p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.adddetailSec .kycbenefitSec{
+    margin-top: 20px;
+}
+
+.adddetailSec .kycbenefitSec li {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.adddetailSec .kycbenefitSec ul{
+    list-style-type: decimal;
+    padding: 0 0 0 15px;
+}
+
+.kycbenefitSec .listTitle{
+    margin-bottom: 10px;
+}
+
+.adddetailSec .getotpbtnSec .getotpBtn{
+    max-width: 200px;
+    width: 100%;
+        padding: 15px 0;
+}
+
+.adddetailSec .getotpbtnSec{
+    text-align: center;
+}
+
+.adddetailSec{
+    
+    max-width: 1051px;
+    margin: 0 auto 0;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .adddetailSec .addharInput {
+        width: 100%;
+        position: relative;
+    }
+    .adddetailSec .getotpbtnSec .getotpBtn {
+        max-width: 216px;
+        width: 100%;
+        
+    }
+    .adddetailSec .kycbenefitSec li {
+        font-size: 12px;
+        
+    }
+}
+
+
+/*........................CSS For Screen 11 End Here........................*/
+
+
+/*........................CSS For Screen 31 Start Here........................*/
+
+
+.otherproductSec h3{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    padding: 35px 0 20px;
+        position: relative;
+}
+
+.otherproductSec h3:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #008EDD, #A2CF42);
+    top: 0px;
+    left: 0;
+}
+
+.otherproductWrap .requestbox{
+        margin-bottom: 30px;
+}
+
+.otherproductWrap  .suitcarouselList .owl-carousel .owl-nav {
+
+    top: -55px;
+    
+}
+
+.otherproductWrap .availableplanCard .availableplanTitle {
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.otherproductWrap .availableplanCard .suitable-contentbox {
+    padding-right: 0;
+}
+
+.otherproductWrap .availableplanCard.suitlistsection .suitable-btn {
+    
+    width: 90%;
+}
+
+@media screen and (max-width: 767px) {
+
+    .otherproductWrap .availableplanCard.suitlistsection .suitlist .thumbmainlist {
+     
+        height: 484px;
+        
+    }
+.otherproductSec h3 {
+
+    font-size: 18px;
+    padding: 20px 0 10px;
+}
+}
+
+
+/*........................CSS For Screen 31 End Here........................*/
+
+
+/*......................CSS For Screen 9 Start Here*......................*/
+
+.plandetailSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.plandetailSec .plantypesSec{
+    width: 72%;
+    border: 1px solid #d9dad5;
+    padding: 30px 25px;
+}
+
+.plandetailSec .summerySec{
+    width: 26%;
+    border: 1px solid #d9dad5;
+}
+
+.plandetailSec h3{
+    margin: 0;
+    color: #000000;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.plantabList ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        align-items: center;
+}
+
+.listContent .plantypeIcon img{
+    width: 50px;
+    height: 50px;
+}
+
+.plantabList li .plantypeIcon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.plantabList li .plantypeIcon.visitCleaning{
+    background: url(../images/Visits-Cleaning.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.plantabList li.activeplanTab .plantypeIcon.visitCleaning{
+    background: url(../images/Visits-Cleaning-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+    
+}
+.plantabList li .plantypeIcon.xRay{
+
+    background: url(../images/X-Ray.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.plantabList li.activeplanTab .plantypeIcon.xRay{
+
+    background: url(../images/X-Ray-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+.plantabList li .plantypeIcon.filling{
+
+    background: url(../images/Filings.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.plantabList li.activeplanTab .plantypeIcon.filling{
+
+    background: url(../images/Filings-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+
+}
+
+.plantabList li .plantypeIcon.exctraction{
+
+    background: url(../images/Extraction.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.plantabList li.activeplanTab .plantypeIcon.exctraction{
+
+    background: url(../images/Extraction-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.plantabList li .plantypeIcon.complexTreatments{
+
+    background: url(../images/Complex-Treatments.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.plantabList li.activeplanTab .plantypeIcon.complexTreatments{
+
+    background: url(../images/Complex-Treatments-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.plantabList li .plantypeIcon.rootCanal{
+
+    background: url(../images/Root-Canal.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.plantabList li.activeplanTab .plantypeIcon.rootCanal{
+
+    background: url(../images/Root-Canal-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.plantabList li .plantypeIcon.accidentalTreatments{
+
+    background: url(../images/Accidental-related-treatments.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+.plantabList li.activeplanTab .plantypeIcon.accidentalTreatments{
+
+    background: url(../images/Accidental-related-treatments-White.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+}
+
+.plantabList li{
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    position: relative;
+}
+
+.listContent .plantypeHeading p{
+    margin: 0;
+    color: #333333;
+    font-size: 13px;
+    padding: 15px 5px 0;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.plantypeTab{
+    margin-top: 30px;
+}
+
+.plantabContent .plantypeDetails{
+    display: none;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15);
+    padding: 20px 30px;
+        margin-top: 35px;
+}
+
+.plantypeDetails h5{
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    width: 30%;
+}
+
+.plantypeDetails h5:nth-child(2) {
+    width: 40%;
+}
+
+.plantypeDetails p{
+    margin: 0;
+    padding-bottom: 10px;
+    color: #333333;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    font-size: 14px;
+    width: 30%;
+}
+
+.plantypeDetails p:nth-child(2) {
+    width: 40%;
+}
+
+.plandetailCard{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.plantabList li.activeplanTab{
+    background: linear-gradient( 
+94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+    transition: all 0.5s ease;
+}
+
+li.activeplanTab .listContent .plantypeHeading p {
+
+    color: #ffffff;
+  
+}
+
+.plantabList li.activeplanTab:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #002741;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.planheading, .plandetailTxt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row;
+}
+
+.summarydetailsSec{
+    width: 26%;
+}
+
+.summuryTitle{
+    width: 60%;
+}
+.summuryDigit{
+    width: 40%;
+}
+
+.summurySec{
+    background: #fff;
+    box-shadow: 5px 5px 18px #0000001c;
+    padding: 20px 15px;
+    width: 100%;
+    position: relative;
+}
+
+
+.summurySec h3{
+    margin: 0;
+    color: #222222;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 15px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.summurySec h6{
+    margin: 0;
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.summurySec .planoptSec p{
+    margin: 0;
+    font-size: 12px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    color: #000000;
+    font-weight: normal;
+}
+
+.summurySec .planoptSec{
+    background: #E9F8FF;
+    padding: 15px 50px 15px 15px;
+        margin: 10px 0;
+}
+
+.summurySec .planoptSec p span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.summurySec .summuryDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.summurySec .summuryDetails ul{
+    margin: 0;
+    padding: 0;
+}
+
+.summurySec .summuryDetails li{
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    margin-bottom: 8px;
+}
+
+.benefitTxt p{
+    font-size: 12px;
+}
+
+.summurySec .summuryDetails li span{
+    color: #007ABC;
+    font-weight: bold;
+}
+
+.summurySec .summuryDetails .summuryDigit li{
+    font-weight: bold;
+    text-align: right;
+}
+
+.summurybtnSec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        margin-top: 30px;
+}
+
+.summurybtnSec h5{
+    margin: 0;
+    font-size: 10px;
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+.summurybtnSec p{
+    margin: 0;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.summurybtnSec .totalPremium{
+    width: 60%;
+}
+
+.summurybtnSec .btnSec{
+    width: 40%;
+}
+
+.summurybtnSec .suitable-btn .btn-brand-1st {
+    border: 2px solid #007abc!important;
+    padding: 13px 0px;
+    width: 100%;
+    max-width: 123px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.summurySec .summuryDetails li.listSpace{
+    margin-top: 30px;
+}
+
+.discountSec p{
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 15px;
+}
+
+.discountSec h5{
+    margin: 0;
+    color: #ffffff;
+    position: relative;
+    top: 17px;
+    right: 19px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+
+.discountSec{
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 65px 65px 65px;
+    border-color: transparent transparent #a50f35 transparent;
+    float: left;
+    transform: rotate(
+360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(
+45deg);
+    -o-transform: rotate(360deg);
+    text-align: center;
+    position: absolute;
+    top: -9px;
+    right: -42px;
+}
+
+.summarydetailsSec .benefitTxt p{
+    margin: 0;
+    padding: 10px 0 0;
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.healthdeclrationWrap h4{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+
+}
+
+.healthdeclrationWrap{
+    margin: 30px 0 0;
+}
+
+.healthdeclarationText{
+    margin: 20px 0 0;
+}
+
+.healthdeclarationText ul{
+    padding: 0 0 0 20px;
+    margin: 0;
+    list-style-type: decimal;
+}
+
+.healthdeclarationText ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.morecontent span{
+    display: none;
+}
+
+.terms-condition h6{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.terms-condition p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    color: #9C9C9C;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.terms-condition{
+    margin: 60px 0 30px;
+}
+
+.morelink.less{
+    margin-left: 5px;
+}
+
+.morelink{
+    font-weight: 500;
+    text-decoration: underline;
+    color: #0090d9;
+}
+
+.morelink:hover{
+    text-decoration: underline;
+    color: #0090d9;
+}
+
+.morelink:focus{
+    text-decoration: underline;
+    color: #0090d9;
+}
+
+.mobtoggleArrow{
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.mobtoggleArrow img{
+    width: 30px;
+    height: 30px;
+    transform: rotate(
+90deg);
+
+}
+
+.summurycontentSec .summuryDetails .summuryTitle {
+    width: auto;
+}
+
+.summurycontentSec .summuryDetails .summuryDigit {
+    width: auto;
+}
+
+.summuryDetails .summuryTitle p, .summuryDetails .summuryDigit p{
+    font-size: 14px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    color: #333333;
+    line-height: 19.07px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.summuryDetails .summuryDigit p{
+    font-weight: bold;
+    text-align: right;
+    color: #000000;
+}
+
+.summurycontentSec .summuryDetails:first-child .summuryTitle{
+
+    width: 100%;
+
+}
+
+.summurycontentSec .summuryDetails:first-child .summuryDigit{
+
+    width: 100%;
+    padding-left: 25px;
+
+}
+
+
+.summurycontentSec .summuryDetails p.boldTxt{
+    color: #007ABC;
+    font-weight: bold;
+}
+
+.summurybtnSec .suitable-btn{
+    text-align: right;
+}
+
+.plantabList li a:hover, .plantabList li a:focus{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+
+    .summurycontentSec .summuryDetails:first-child .summuryDigit {
+        padding-left: 0px;
+    }
+
+    .summurySec {
+        
+        padding: 20px 10px;
+        
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .plandetailSec .plantypesSec {
+        width: 100%;
+    }
+
+    .summarydetailsSec {
+        width: 100%;
+        /*display: none;*/
+    }
+    .plandetailSec h3 {
+        
+        font-size: 18px;
+        margin-top: 40px;
+            
+      
+    }
+    .plandetailSec .plantypesSec h3 {
+        
+        
+        margin-top: 0px;
+            
+      
+    }
+    .plantypeDetails h5 {
+        
+        display: none;
+    }
+    .plandetailTxt {
+        display: flex;
+        justify-content: space-between;
+        width: 48%;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 5px;
+        box-shadow: 0px 4px 15px 0px rgb(0 0 0 / 15%);
+        margin-bottom: 15px;
+    }
+    .plandetailTxt p:first-child {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .plandetailSec .plantypesSec {
+        width: 100%;
+        border: none;
+        padding: 20px 0px;
+    }
+    .plandetailCard {
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .plantabContent .plantypeDetails {
+        
+        padding: 15px 15px 0;
+    }
+    .boldAmount{
+        font-weight: bold;
+        display: block;
+    }
+
+    .plantabList ul {
+       
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        white-space: nowrap;
+        overflow-x: auto;
+        margin-bottom: 0;
+    }
+
+    .plandetailSec {
+        
+        flex-direction: column;
+        
+    }
+    .terms-condition {
+        margin: 30px 0 30px;
+    }
+
+    .plantabList li {
+        padding: 10px 20px;
+        margin-bottom: 15px;
+    }
+    .plantabList li .plantypeIcon {
+        width: 50px;
+        height: 50px;
+        
+    }
+
+
+    .plantypeDetails h5{
+        
+        width: 100%;
+    }
+
+    .plantypeDetails h5:nth-child(2) {
+        width: 100%;
+    }
+
+    .plantypeDetails p{
+      
+        width: 100%;
+    }
+
+    .plantypeDetails p:nth-child(2) {
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .summurybtnSec{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background: #F2F2F2;
+        z-index: 1;
+        left: 0;
+        padding: 10px 20px 10px;
+    }
+
+    .summurybtnSec .suitable-btn .btn-brand-1st {
+      
+        width: 100%;
+        max-width: 100%;
+        
+    }
+    .summurycontentSec .summuryDetails:first-child .summuryDigit {
+        padding-left: 30px;
+    }
+    .summurySec{
+        position: fixed;
+        bottom: -320px;
+        width: 100%;
+        background: #ffffff;
+        z-index: 1;
+        left: 0;
+        padding: 0 25px;
+        padding-bottom: 60px;
+        transition: all 0.5s linear;
+    }
+    .mobtoggleArrow{
+        display: block;
+    }
+
+    .summurySec.active{
+        bottom: 0;
+        padding-bottom: 100px;
+
+    }
+
+    .summurySec.active .mobtoggleArrow img {
+        width: auto;
+        transform: rotate( 270deg);
+    }
+    .summurySec.active .summurybtnSec{
+        background: #ffffff;
+    }
+    .plantypeTab {
+        margin-top: 20px;
+    }
+    .plantabContent .plantypeDetails{
+        margin-top: 0px;
+    }
+    .plantabList ul{
+            margin-bottom: 10px;
+    }
+    .summarydetailsSec .benefitTxt p {
+     
+        padding: 0px 0 0;
+        font-size: 12px;
+       
+    }
+    .plandetailSec .plantypesSec {
+        
+        padding: 0px 0px 10px;
+    }
+    .healthdeclrationWrap {
+        margin: 15px 0 0;
+    }
+    .healthdeclrationWrap h4 {
+    
+        font-size: 12px;
+      
+    }
+    .healthdeclarationText ul li {
+        
+        font-size: 12px;
+        line-height: 18px;
+        
+    }
+    .healthdeclarationText ul {
+        padding: 0 0 0 15px;
+        
+    }
+    .terms-condition {
+        margin: 30px 0 30px;
+    }
+    .terms-condition h6 {
+       
+        font-size: 14px;
+        
+    }
+    .mainheadingWrap .arrowSec a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 24px;
+        height: 24px;
+    }
+    .mainheadingWrap img {
+        width: 100%;
+    }
+    .plandetailSec {
+        
+        margin-top: 0px;
+    }
+    .plantabList li .plantypeIcon {
+        width: 50px;
+        height: 50px;
+        
+    }
+    .listContent .plantypeHeading p{
+        padding: 5px 5px 0;
+    }
+
+    .plantabList li.activeplanTab:before {
+        bottom: -10px;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #002741;
+        
+    }
+    .plantypeDetails p{
+        padding-bottom: 5px;
+    }
+}
+
+
+
+/*......................CSS For Screen 9 End Here*......................*/
+
+
+/*......................CSS For Finad Clinic Start Here*......................*/
+
+
+.hpHeading h2{
+
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.locationdetailSec{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.locationdetailSec .addressDetails{
+    width: 29%;
+    margin-right: 30px;
+}
+
+.locationdetailSec .mapDetails{
+    width: 71%;
+}
+
+.forminputSec .searchbtnSec .searchBtn{
+    width: 100%;
+    padding: 15px 0;
+}
+
+.clinicAddress h4{
+    margin: 0;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    padding-bottom: 5px;
+}
+
+.clinicAddress p{
+    margin: 0;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.clinicAddress p.timeDetails{
+    padding: 5px 0 0;
+}
+
+.clinicAddress{
+    margin-bottom: 20px;
+}
+
+.clinicAddress:last-child{
+    margin-bottom: 0px;
+}
+
+.clinicDetails{
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 20%);
+    padding: 20px 15px 20px 25px;
+    margin-top: 30px;
+}
+
+
+.forminputSec .form-field-container.dropdownArrow:after {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    top: 22px;
+    right: 12px;
+}
+
+.customeWidth{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    
+
+}
+
+.clinicAddress a{
+    color: #333333;
+}
+
+.clinicAddress a:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1199px) {
+
+    .customeWidth{
+            padding-left: 15px;
+            padding-right: 15px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .locationdetailSec {
+        flex-direction: column;
+        
+    }
+
+    .locationdetailSec .addressDetails {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+
+    .locationdetailSec .mapDetails {
+        width: 100%;
+        height: 584px;
+
+    }
+
+    .hpHeading h2 {
+        font-size: 24px;
+        
+    }
+
+    .clinicDetails {
+        
+        margin-top: 30px;
+    }
+
+    
+}
+
+
+/*......................CSS For Finad Clinic End Here*......................*/
+
+
+
+/*......................CSS For Custom Messaging Clinic Start Here*......................*/
+
+.custommsgSec h5{
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+    display: none;
+    background: #F2F2F2;
+    padding: 38px 0px;
+    
+}
+
+@media screen and (max-width: 767px) {
+
+    .custommsgSec h5{
+        display: block;
+    }
+
+}
+
+
+/*......................CSS For Custom Messaging Clinic End Here*......................*/
+
+
+/*......................CSS For Homepage Find Clinic Start Here*......................*/
+
+
+.searchbtn{margin-top: 15px;display: block;}
+
+#map{height:100%;width:100%;overflow:all}
+.gm-style-iw-d p{margin-bottom:5px}
+.gm-style-iw-d h1#firstHeading{font-size:15px}
+
+
+/*......................CSS For Homepage Find Clinic End Here*......................*/
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-mail">
+      <rect width="24" height="24"/>
+    </clipPath>
+  </defs>
+  <g id="mail" clip-path="url(#clip-mail)">
+    <rect width="24" height="24" fill="rgba(255,255,255,0)"/>
+    <g id="Icon_Email_2" data-name="Icon/Email/2" transform="translate(0 2)">
+      <path id="Icon_Email_2-2" data-name="Icon/Email/2" d="M22.5,20H1.5A1.591,1.591,0,0,1,0,18.333V4.662l12,10,12-10V18.339A1.59,1.59,0,0,1,22.5,20ZM12,11.667h0l-12-10A1.592,1.592,0,0,1,1.5,0h21A1.591,1.591,0,0,1,24,1.667l-12,10Z" fill="#007abc"/>
+    </g>
+  </g>
+</svg>

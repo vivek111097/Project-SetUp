@@ -1,0 +1,2037 @@
+body,
+html {
+    /*overflow-x: hidden;*/
+    max-width: 100%;
+    /*height: auto;*/
+    font-family: "MetLifeCircular";
+}
+body {
+    padding-top: 20px;
+
+}
+
+.btn-brand-1st{
+    font-family: 'Noto Sans', sans-serif;
+}
+.iconsliderbox{background:#eae7e7;}
+.mgfpbenefitbg { background: #fafafa;}
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?k7jzhs');
+    src: url('..fonts/icomoon.eot?k7jzhs#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff2?k7jzhs') format('woff2'), url('../fonts/icomoon.ttf?k7jzhs') format('truetype'), url('../fonts/icomoon.woff?k7jzhs') format('woff'), url('../fonts/icomoon.svg?k7jzhs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Light.woff2") format("woff2"), url("../fonts/MetLifeCircular-Light.woff") format("woff");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-LightItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-LightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Normal.woff2") format("woff2"), url("../fonts/MetLifeCircular-Normal.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-NormalItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-NormalItalic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Medium.woff2") format("woff2"), url("../fonts/MetLifeCircular-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-MediumItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Bold.woff2") format("woff2"), url("../fonts/MetLifeCircular-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-BoldItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-BoldItalic.woff") format("woff");
+    font-weight: 700;
+    font-style: italic
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal; 
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Female-1_W:before { content: "\e900";}
+
+.icon-Female_W:before { content: "\e901";}
+
+.icon-Male-1_W:before { content: "\e902";}
+
+.icon-Male_W:before { content: "\e903";}
+
+.icon-Money-bag:before {
+    content: "\e904";
+}
+
+.icon-Other_W:before {
+    content: "\e905";
+}
+
+ .radiobuttonboxcss {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+ .genderList {
+    background: #f2f2f2;
+    width: 50%;
+    height: 50px;
+}
+
+.mgfpbenefitplansection { padding-bottom: 20px;}
+
+ .radiobuttonboxcss .inspan {
+    width: 100%;
+    display: block;
+    padding-bottom: 2px;
+    cursor: pointer;
+    padding-left: 0px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #A7A8AA;
+    height: 100%;
+}
+
+ .genderList:first-child .inspan {
+    border-right: none;
+}
+
+ .radiobuttonboxcss input[type="radio"] {
+    opacity: 0;
+    width: 0px;
+}
+
+ .radiobuttonboxcss label {
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    margin-left: -3px;
+    font-weight: normal;
+}
+
+
+.mgfpbenefitplansection .brand-button-row .btn-brand-1st{
+    padding: 13px 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    max-width: 290px;
+}
+
+.policyholderbox .rowcenter {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.mgfpbenefitplansection .plantitle h3 {
+    font-size: 30px;
+    color: #000000;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.mgfpbenefitplansection .plantitle p {
+    font-size: 16px;
+    padding-bottom: 0px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+
+
+ .radiobuttonboxcss .active {
+    background: #007abc;
+}
+
+ .radiobuttonboxcss .active input[type="radio"]:checked+label {
+    background: transparent;
+}
+
+ .radiobuttonboxcss .active input[type="radio"]+label {
+    background: #007abc;
+    color: #fff;
+    font-weight: bold;
+}
+
+ .radiobuttonboxcss .active .inspan {
+    border-color: #007abc;
+    font-weight: 600;
+}
+
+ .radiobuttonimage {
+    font-size: 32px;
+    color: #007abc;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 0px;
+}
+
+/*.radiobuttonimage {
+    font-size: 32px;
+    color: #007abc;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}*/
+
+.homepagesection .policycolumn .col-md-6:first-child{
+padding-right: 12px;
+}
+
+.homepagesection .policycolumn .col-md-6:last-child{
+padding-left: 12px;
+}
+.mgfpbenefitplansection .radiogenderbox{display: none;}
+ .form-field-container input.currentpad {
+    font-size: 16px !important;
+    border-color: #333333 !important;
+    position: relative;
+    padding-left: 25px !important;
+}
+
+ .form-field-container input.error {
+    border: 1px solid #eb3c36 !important;
+}
+
+.form-field-container input {
+    font-size: 16px !important;
+}
+
+ .form-field-container label.focus-state {
+    font-size: 12px;
+    font-weight: 400 !important;
+    font-family: 'Noto Sans', sans-serif;
+}
+.mgfpbenefitplansection .calIcon{
+    z-index: 1;
+      cursor: pointer;
+      pointer-events: inherit;
+}
+
+.mgfpbenefitplansection .calIcon:hover{
+  
+      cursor: pointer;
+}
+
+.radiobuttonboxcss .active .radiobuttonimage {
+    font-size: 32px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    left: 0px;
+}
+
+.mgfpbenefitplansection .mgpcontainer{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;    
+}
+
+.policyinboxlogo {
+    width: 55px;
+}
+
+.policylocationimage{width: 45px;}
+.policyhammerlogo{width: 59px;}
+
+.policycontentrow{
+    align-items: center;
+    margin-bottom: 22px;    
+}
+.custominboxlogo img {
+    width: 100%;
+}
+.mgfpbenefitplansection .policyinnercontbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+     h2.policyTitle {
+    font-size: 16px;
+    font-weight: bold;
+   margin-bottom: 0px;
+}
+.mgfpbenefitplansection .policyincontent .policyclaim{
+    font-size: 12px;
+}
+.mgfpbenefitplansection .policyincontent {
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+.familymemberpolicy{
+  margin-top: 0px;
+  display: none;
+}
+.mgfpbenefitplansection .policyiconcontbox h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mgfpbenefitplansection .policyleftfullwidth{
+    width: 100%;
+    float: none;
+    padding-right: 0px;
+}
+.policylist {
+    padding-left: 0px;
+    margin-top: 8px;
+}
+.policylist li{
+    display: -webkit-inline-box;
+    display: inline-flex;
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.1px;
+}
+
+.policylist li:before {
+    content: "\2022";
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 5px;
+}
+.mgfpbenefitplansection .plantitle p.policycontentpara{
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.mgfpbenefitplansection .plantitle .policyinnertitle{
+    font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.mgfpbenefitplansection .plantitle .policyowner .policyinnertitle{
+    margin-bottom: 13px;
+}
+.mgfpbenefitplansection .plantitle .familymemberpolicy .policyinnertitle{
+    margin-bottom: 13px;
+}
+.mgfpbenefitplansection .policyholderformcontent{margin-bottom: 15px;}
+.policyholderselectoption .policyradiobtn {
+    width: 90px;
+    display: inline-block;
+}
+
+
+.policyradiobtn [type=radio]:checked, .policyradiobtn [type=radio]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.policyholderselectoption .policyradiobtn label {
+    font-size: 14px;
+    color: #4b4b4b;
+    
+}
+
+.policyradiobtn [type=radio]:checked + label, .policyradiobtn [type=radio]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.policyradiobtn [type=radio]:checked + label:before, .policyradiobtn [type=radio]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #454545;
+    border-radius: 100%;
+    background: #fff;
+}
+
+
+.policyradiobtn [type=radio]:checked + label:after, .policyradiobtn [type=radio]:not(:checked) + label:after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background: #0061a0;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+.policyradiobtn [type=radio]:not(:checked) + label:after {
+    opacity: 0;
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+.mgfpbenefitplansection select{
+    background-image: url(../images/carrot-down.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: right 5px bottom 6px;
+    background-color: #fff;
+    /*z-index: 1!important;*/
+}
+
+
+.bgbox{
+ background: #fff;
+box-shadow: 5px 5px 18px #0000001c;
+padding: 25px;   
+}
+.mgfpbenefitplansection .policyholderbox{
+margin-top: 0px;
+padding: 30px 30px;
+box-sizing: border-box;
+}
+.mgfpbenefitplansection .static-form-container .form-field-container input[type="text"]{ border-color: #333;}
+
+.mgfpbenefitplansection .static-form-container .form-field-container input {
+ font-family: 'Noto Sans', sans-serif;
+ font: weight: 400;
+}
+
+
+/*popup css/*/
+
+.customModal.is-visible {
+    visibility: visible;
+}
+.customModal{
+   position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+} 
+
+.customModal.is-visible .customModal-overlay {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+
+.customModal-wrapper {
+    position: absolute;
+    z-index: 9999;
+    top: 3em;
+    left: 50%;
+    width: 32em;
+    background-color: #fff;
+    box-shadow: 0 0 1.5em hsl(0deg 0% 0% / 35%);
+    padding: 25px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+
+.customModal-wrapper.suitableinnerpopup{
+width: 36em;    
+}
+.customModal.is-visible .suitableinnerpopup{
+    top: 4em;
+}
+.customModal-overlay {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 0%, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+}
+
+
+.suitablepopup .customModal-close{
+    right: 0px;
+    top: 13px;
+    cursor: pointer;
+    z-index: 1;
+}
+.suitablepopup .brand-button-row{
+    justify-content: center;
+}
+
+.suitablepopup .customModal-close:focus{outline: none;}
+
+.suitablepopup .suitableinnerpopup {
+    overflow: hidden;
+    padding-bottom: 30px;
+    /* background: #007abc; */
+    border-radius: 0px;
+}
+
+
+.customModal.needACallPopup.is-visible .customModal-transition {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+div.customModal-overlay {
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+}
+.suitablegoalblock{
+    box-shadow: 5px 5px 20px #0000001c;
+    padding: 15px 15px;
+    box-sizing: border-box;
+   margin-bottom: 20px;
+   /*height: 60px;*/
+  /*-webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  transition: 0.4s ease;*/
+  cursor: pointer;
+  border-top: 4px solid transparent;
+}   
+.suitablegoalblock .row{
+        align-items: center;
+}
+
+.suitablegoalblock.active .suitablegoalcont p:after{
+    content: '';
+    background-image: url(../images/selected_tick.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+.suitablegoalblock .suitablegoalcont{
+    position: relative;
+}
+
+.suitablepopup .suitablepoptitle{padding-top: 5px;}
+
+
+.suitablepopup .suitableproceed{
+    padding: 13px 70px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.suitablepopup.chooseGoal .brand-button-row{
+    text-align: center;
+}
+
+.suitablepopup.chooseGoal .suitableproceed {
+    padding: 13px 0px;
+    width: 100%;
+    max-width: 240px;
+    
+}
+
+.suitablepopup.chooseGoal#childDetailpopup .suitableproceed{
+    margin-top: 20px;
+}
+
+.chooseGoal .static-form-container .form-field-container {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-bottom: 20px !important;
+}
+
+.suitablegoalblock p{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.suitablepoptitle h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+.suitablegoalicon{
+    width: 26px;
+    height: 26px;
+}
+.suitablegoalblock:hover{
+ background: -webkit-linear-gradient(94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+background: linear-gradient(94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+}
+
+.suitablegoalblock.active{
+ background: -webkit-linear-gradient(94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+background: linear-gradient(94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+border-top: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left,#a2cf42 calc(10%),#008edd calc(100%),#fff calc(100%));
+}
+
+.suitablegoalblock:hover p{
+color: #fff;
+}
+.suitablegoalblock.active p{
+ color: #fff;
+}
+
+.rowcenter{
+    justify-content: center;
+}
+.suitablepopup .suitablecenterblock{
+    margin-top: 5px;
+}s
+.suitablecenterblock .suitablegoalcont p{
+padding-left: 10px;
+}
+
+
+/*==============================================================================================*/
+/*suitability analysis page css*/
+.suitanalysis-radio label {
+    cursor: pointer;
+    position: relative;
+    background: #ffffff;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    /*transition: all 0.5s ease;*/
+    box-shadow: 0px 2px 8px #0000000D;;
+    margin-bottom: 10px;
+    border-top: 4px solid transparent;
+
+}
+
+.suitanalysis-radio label:hover {
+    background: rgb(0, 39, 65);
+    background: linear-gradient(94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card .suitable-info-wrap .suitable-card-title,
+.suitanalysis-radio label:hover .suitable-bs-card .suitable-info-wrap .suitable-desc {
+    color: #ffffff;
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon {
+    color: #ffffff;
+}
+
+.suitanalysis-radio input[type=radio]:not(old) {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    position: absolute;
+    border-top: 4px solid transparent;
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label {
+    background: rgb(0, 39, 65);
+    background: linear-gradient(94deg, rgba(0, 39, 65, 1) 58%, rgba(0, 77, 127, 1) 86%);
+    transition: all 0.5s ease;
+    border-top: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left,#a2cf42 calc(10%),#008edd calc(100%),#fff calc(100%));
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.icon-tick {
+    display: inline-block;
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .suitable-bs-card.typ-2 .suitable-icon-wrap .icon {
+    color: #ffffff;
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .suitable-bs-card .suitable-info-wrap .suitable-card-title,
+.suitanalysis-radio input[type=radio]:not(old):checked+label .suitable-bs-card .suitable-info-wrap .suitable-desc {
+    color: #ffffff;
+}
+
+.suitable-bs-card .suitable-card-head {
+    padding: 20px 10px 10px 100px;
+    position: relative;
+}
+
+.suitable-bs-card .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.suitable-bs-card.typ-2 .suitable-card-head {
+    padding: 9px 15px;
+}
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon {
+    position: initial;
+    width: 40px;
+    color: #079add;
+    margin-right: 15px;
+    line-height: initial;
+    font-size: 40px;
+    display: inline-block;
+}
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon img{height: 100%;}
+.suitable-bs-card .suitable-card-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.suitable-bs-card .suitable-info-wrap .suitable-card-title {
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    margin-bottom: 0px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.suitable-bs-card .suitable-info-wrap .suitable-desc {
+    font-size: 12px;
+    line-height: 16px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;
+    margin: 5px 0 5px 0;
+}
+
+label .icon.icon-tick {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    top: 7px;
+    right: 7px;
+    /*background: lawngreen;*/
+    position: absolute;
+    display: none;
+}
+label .icon.icon-tick img{width: 100%;}
+
+.suitanalysiscalculator .suitableanalysiscontainer {
+   padding: 20px 45px;
+   background:#ffffff; 
+   box-shadow: 5px 5px 18px #0000001c;
+    margin-bottom: 70px;
+} 
+.suitanalysispage{background: #fff;}
+.suitableanalysiscontainer h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+.suitableanalysisbox .col-md-4{margin-bottom: 15px;}
+.suitanalysiscalculator .proceed{
+    width: 100%;
+    max-width: 290px;
+    margin: auto;
+    display: block;
+    padding: 15px 20px;
+    font-weight: bold;
+    margin: 15px auto 25px;
+   border-radius: 2px;
+}
+.suitanalysiscalculator .suitanalysis-maintitle{
+    margin-left: -15px;
+    font-weight: 500;
+    font-size: 28px;
+    margin: 0;
+    padding-bottom: 30px;
+    color: #000000;
+    padding-top: 3px;
+}
+
+
+
+
+/*homepage css*/
+
+.homesubmitblock .homesubmitcheck {
+    width: auto;
+    position: relative;
+    margin: 0;
+    border-radius: 2px;
+    padding-left: 25px;
+}
+
+.homesubmitblock .homesubmitcheck:last-child{margin-top: 8px;}
+
+.homesubmitblock .homesubmitcheck input {
+    position: absolute;
+}
+.homesubmitblock .homesubmitcheck input[type=checkbox] {
+    opacity: 0;
+}
+
+.homesubmitblock .homesubmitcheck.tearmCondations label {
+        cursor: pointer;
+    position: relative;
+    padding: 0px 0 0 25px;
+    margin-left: -25px;
+    color: #333;
+    width: 100%;
+    height: auto;
+}
+
+div.homesubmitblock .homesubmitcheck label:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    border: solid 2px #BBBBBB;
+}
+.homesubmitcheck input[type=checkbox]:checked + label:before {
+    border-color: #007abc;
+    background: #007abc;
+}
+
+.homesubmitblock .homesubmitcheck.tearmCondations label p {
+    font-size: 10px;
+    margin: 0;
+    padding-left: 7px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;
+}
+
+div.homesubmitblock .homesubmitcheck label:after {
+    content: '';
+    width:11px;
+    height: 6px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    opacity: 0;
+    -webkit-transform: rotate(
+-45deg
+);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(
+-45deg
+);
+}
+
+.homesubmitblock .homesubmitcheck input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+.homepagesection .innerhomequoteform{
+    box-shadow: 5px 5px 18px #efefef;
+}
+.homepagesection .innerhomequoteform .innerhomequoteformtitle{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+}
+.homepagesection .innerhomequoteformbtn a{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.homepagesection .innerhomequoteformbtn .col-md-6:first-child{
+    padding-right: 10px;
+}
+.homepagesection .innerhomequoteformbtn .col-md-6:last-child{
+    padding-left: 10px;
+}
+
+.homepagesection .innerhomequoteformbtn .col-md-6:first-child a{
+    padding: 14px 20px;
+}
+.homepagesection .innerhomequoteformbtn .col-md-6:last-child a{
+    background: transparent;
+    color: #007abc;
+    border: 2px solid #007abc;
+    padding: 12px 0px;
+}
+
+.homepagesection .innerhomequoteformbtn .col-md-6:last-child a:hover{
+    background: #007abc;
+    color: #fff;
+}
+
+/*==============================================================================================*/
+/*mgfp carousel page css*/
+
+.suitability-carousel-page{background: #FAFAFA;}
+.suitlist{
+    padding-left: 0px;
+}
+.suitlistsection .suitlist .thumbmainlist {
+    width: 100%;
+    height: 510px;
+    /*margin-bottom: 12px;
+    margin-bop: 12px;*/
+    margin: 20px 0 30px;
+    background: #fff;
+    padding: 15px 15px 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+
+.suitable-text span {
+    color: #000000;
+    font-size: 18px;
+    line-height: 30px;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+.suitable-text h2 {
+    color: #000000;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.suitcarouselList .suitable-text {
+    min-height: 120px;
+}
+
+.plancarouselSec.suitcarouselList .suitable-text {
+    min-height: auto;
+}
+
+.suitable-contentbox ul {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    padding:10px 0px;
+    box-sizing: border-box;
+    
+}
+
+.suitlistsection .suitable-contentbox li {
+    background: transparent;
+    box-shadow: none;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    list-style-type: none;
+    color: #000;
+    margin-bottom: 0px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;
+    border: none;
+    line-height: 30px;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    color: #000000;
+}
+
+
+.suitlistsection .suitable-contentbox li .suitanalysislistcircle:before{
+        content: "\2022";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+.suitlistsection .suitable-contentbox li .suitanalysistext{padding-left: 7px}
+.suitlistsection .suitable-contentbox li .suitablenum{
+   position: relative;
+   top: -5px; 
+       font-size: 12px;
+}
+/*.suitlistsection .suitable-contentbox li:before {
+    content: "\2022";
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 5px;
+    vertical-align: middle;
+}*/
+
+.suitlistsection .suitable-btn {
+    bottom: 27px;
+    position: absolute;
+}
+
+.suitable-btn .btn-brand-1st {
+    border: 2px solid #007abc!important;
+    padding: 8px 20px;
+}
+
+.suitable-btn .suitablecallbtn{
+    background: transparent;
+    border: 2px solid #007abc;
+    color: #007abc;
+    margin-right: 15px;
+}
+
+.suitlistsection.suitcarouselList .owl-dots {
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.suitlistsection.plancarouselSec.suitcarouselList .owl-dots{
+    bottom: -25px;
+}
+
+.suitlistsection.suitcarouselList .owl-dot {
+    background: #A4CE4E!important;
+    width: 9px;
+    height: 9px;
+    margin: 0px 3px;
+    border-radius: 50%;
+}
+
+.suitlistsection.suitcarouselList .owl-dot.active {
+    background: #0061A0!important;
+    outline: none;
+}
+.suitablecarouselsection .suitcarouselTitle{
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 28px;
+    padding-top: 5px;
+}
+
+.suitablecarouselsection .suitcarouselPara{
+    color: #333333;
+    margin: 20px 0 0;
+    font-size: 18px;
+        font-weight: 400
+}
+.suitablecarouselsection .container{
+    padding-left: 15px;
+    padding-right: 15px;
+        margin-bottom: 50px;
+}
+
+
+
+/*child detail popup css*/
+#childDetailpopup .suitableinnerpopup{
+padding: 30px 35px 40px 35px;
+}
+
+
+/*death benefit popup css*/
+
+.riderpopupcomponent .suitablepoptitle h3{
+    padding-right: 33px;
+}
+
+.riderpopupcomponent .suitableinnerpopup{
+    width: 23em;
+   padding: 30px 0px 35px 0;
+   /*padding-top: 30px;*/
+}
+.riderpopupcomponent .suitablepoptitle{
+    padding: 0px 15px;
+}
+
+.riderpopupcomponent .customModal-content .col-md-2{
+    padding-right: 0px;
+}
+
+.suitablepopup.riderpopupcomponent .brand-button-row {
+    justify-content: center;
+    text-align: center;
+}
+
+ .benefitcontent p{
+    font-size: 10px;
+    margin-bottom: 7px;
+    color: #333333;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+        padding-left: 60px;
+        line-height: 14px;
+}
+.benefitcontent{
+        padding-left: 8px;
+}
+ .benefitcontTitle{
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 2px;
+ }
+ .borderbox{border-top: 1px solid #f8f8f8;}
+ .benefitriderbox{
+    padding-top: 30px;
+ }
+ .benefitriderbox .form-field-container label{
+    width: 93%;
+    left: 3px;
+    padding-left: 10px;
+ }
+  .sumrupeeamount{
+    background: url(../images/Rupee.svg) center no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    left: 3px;
+ } 
+/* .rupeeamounttext{
+    background: url(../images/Rupee.svg) center no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+ } */
+ .ridersumassuredContent p{
+    margin-bottom: 2px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+ }
+ .sumassuredperiod{
+    text-align: center;
+    display: block;
+    font-size: 10px;
+    color: #333333;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+ }
+ .ridersumassuredContent{margin-top: -16px;}
+ .sumbold{font-weight: 700;}
+
+ /*#deathbenefitpopup .customModal-close{
+    right: 15px;
+    top: 13px;
+ }*/
+ .customModal-close img{
+    width: 30px;
+ }
+ .riderpopupcomponent .suitableproceed{
+    padding: 10px 0px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 186px;
+ }
+.iconsliderbox .iconslidecolumn .col-md-2{
+padding-right: 0px!important;
+}
+
+.iconsliderbox .iconslidecolumn .col-md-10{
+padding-left: 10px!important;
+}
+
+.mgfpiconTitle {
+    margin-bottom: 0px;
+   font-size: 18px;
+   font-weight: bold;
+}
+.mgfppara{
+    margin-bottom: 0px;
+}
+.iconlogo{
+    width: 40px;
+    margin: auto;
+}
+
+
+.iconboxlogo {
+    width: 56px;
+        margin: auto;
+}
+.iconboxlogo img{width: 100%;}
+.iconslidecolumn{
+        padding: 20px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.iconslidecolumn .iconTitle {
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+p.iconclaim {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    line-height: 19px;
+}
+.iconslidecolumn .owl-dots{text-align: center;}
+.iconslidecolumn button.owl-dot{
+ background: #ceeaf8;
+ width: 8px;
+ height: 8px;
+ margin: 3px;
+ border-radius: 50%;
+}
+.iconslidecolumn button.owl-dot.active{
+    background: #0061a0;
+}
+.iconslidecolumn button.owl-dot:focus{
+    outline: none;
+}
+.illness-Riders{padding-left: 5px;}
+
+
+/*CSS For Custome Radio Buttons Start*/
+
+.customeradioBox input[type="radio"]{
+    /* hide the inputs */
+    opacity: 0;
+    display: none;
+    margin: 0;
+}
+
+.customeradioBox input[type="radio"] + label{
+    /* keep pointer so that you get the little hand showing when you are on a button */
+    cursor: pointer;
+    /* the following are the styles */
+    float: left;
+    padding: 10.5px 10px;
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    
+    text-shadow: 1px 1px 0 rgba(0,0,0,0);
+    margin-bottom: 0;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    /*font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;*/
+    color: #333333;
+    font-weight: 400;
+    position: relative;
+    padding-left: 40px;
+}
+
+.customeradioBox input[type="radio"] + label.maleIcon{
+    padding-left: 27px !important;
+}
+
+.customeradioBox input[type="radio"]:checked + label{
+    /* style for the checked/selected state */
+    background: #007abc;
+    border-color: #007ABC;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+    color: white;
+    font-weight: bold;
+}
+
+.static-form-container .policyownerSec .form-field-container select{
+    border-color: #333333;
+}
+
+.customeradioBox input[type="radio"] + label.borderNone{
+    border-left: none;
+}
+
+/*CSS For Custome Radio Buttons End*/
+
+.arrowIcon {
+    width: 36px;
+    height: 36px;
+    background: #c2eaff;
+    border-radius: 100%;
+    position: relative;
+}
+.arrowIcon a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}.arrowIcon img {
+    width: 16px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+    position: absolute;
+}
+.suitanalysiscalculator .arrowSec{
+    float: left;
+    padding-right: 20px;
+}
+
+/*#childDetailpopup .customeradioBox input[type="radio"] + label{
+    padding: 10.5px 10px;
+}*/
+
+
+.suitcarouselList button.owl-next:before {
+    content: '';
+    border: solid #007ABC;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(
+-45deg);
+    -webkit-transform: rotate(
+-45deg);
+}
+
+.suitcarouselList button.owl-prev:before {
+    content: '';
+    border: solid #007ABC;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.suitcarouselList button.owl-prev:after {
+    content: '';
+    border-right: 1px solid #D9D9D9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+}
+
+
+
+.suitcarouselList button.owl-next:hover button.owl-next:before{
+
+    color: red;
+
+}
+
+.suitcarouselList .owl-carousel .owl-nav button.owl-prev {
+
+    padding: 8px 15px 8px 0 !important;
+}
+
+.suitcarouselList .owl-carousel .owl-nav button.owl-next{
+padding: 8px 0 8px 15px !important;
+}
+
+.suitcarouselList .owl-nav span{
+    color: transparent;
+    display: none;
+}
+
+.suitcarouselList .owl-prev{
+    position: relative;
+}
+
+.suitcarouselList .owl-nav button:focus {
+    outline: 1px dotted;
+    outline: none;
+}
+
+.suitcarouselList .owl-carousel .owl-nav{
+    position: absolute;
+    top: -40px;
+    right: 0
+}
+
+.benefitriderbox .sumrupeeamount{
+    top: 14px;
+}
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon{
+    
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/*CSS For Background Image Start*/
+
+/*First Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.sinGle{
+    background-image: url(../images/Single-color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.sinGle{
+    background-image: url(../images/Single-white.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.sinGle {
+    background-image: url(../images/Single-white.svg);
+}
+
+/*First Box*/
+
+/*Secound Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.married-withoutChild{
+    background-image: url(../images/Married-without-Children-color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.married-withoutChild{
+    background-image: url(../images/Married-without-Children-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.married-withoutChild {
+    background-image: url(../images/Married-without-Children-White.svg);
+}
+
+/*Secound Box*/
+
+/*Third Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.married-withChild{
+    background-image: url(../images/Married-with-Children-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.married-withChild{
+    background-image: url(../images/Married-with-Children-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.married-withChild {
+    background-image: url(../images/Married-with-Children-White.svg);
+}
+
+/*Third Box*/
+
+/*Fourth Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.olderParent{
+    background-image: url(../images/Old-Person-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.olderParent{
+    background-image: url(../images/Old-Person-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.olderParent {
+    background-image: url(../images/Old-Person-White.svg);
+}
+
+/*Fourth Box*/
+
+/*Fifth Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.retirPlan{
+    background-image: url(../images/Planning-for-Retirement-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.retirPlan{
+    background-image: url(../images/Planning-for-Retirement-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.retirPlan {
+    background-image: url(../images/Planning-for-Retirement-White.svg);
+}
+
+/*Fifth Box*/
+
+/*Sixth Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.limitedIncome{
+    background-image: url(../images/Earn-Limited-Period-Income-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.limitedIncome{
+    background-image: url(../images/Earn-Limited-Period-Income-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.limitedIncome {
+    background-image: url(../images/Earn-Limited-Period-Income-White.svg);
+}
+
+/*Sixth Box*/
+
+/*Seventh Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.regularIncome{
+    background-image: url(../images/Earn-Regular-Income-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.regularIncome{
+    background-image: url(../images/Earn-Regular-Income-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.regularIncome {
+    background-image: url(../images/Earn-Regular-Income-White.svg);
+}
+
+/*Seventh Box*/
+
+/*Eight Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.childEducation{
+    background-image: url(../images/Plan-Child-Education-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.childEducation{
+    background-image: url(../images/Plan-Child-Education-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.childEducation {
+    background-image: url(../images/Plan-Child-Education-White.svg);
+}
+
+/*Eight Box*/
+
+/*Nine Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.longTerm{
+    background-image: url(../images/Save-Long-Term-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.longTerm{
+    background-image: url(../images/Save-Long-Term-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.longTerm {
+    background-image: url(../images/Save-Long-Term-White.svg);
+}
+
+/*Nine Box*/
+
+/*Ten Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.ConserVative{
+    background-image: url(../images/Conservative-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.ConserVative{
+    background-image: url(../images/Conservative-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.ConserVative {
+    background-image: url(../images/Conservative-White.svg);
+}
+
+/*Ten Box*/
+
+/*Eleven Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.balaNced{
+    background-image: url(../images/Balanced-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.balaNced{
+    background-image: url(../images/Balanced-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.balaNced {
+    background-image: url(../images/Balanced-White.svg);
+}
+
+/*Eleven Box*/
+
+/*Thelve Box*/
+
+.suitable-bs-card.typ-2 .suitable-icon-wrap .icon.aggreSsive{
+    background-image: url(../images/Aggressive-Color.svg);
+}
+
+.suitanalysis-radio input[type=radio]:not(old):checked+label .icon.aggreSsive{
+    background-image: url(../images/Aggressive-White.svg);
+}
+
+.suitanalysis-radio label:hover .suitable-bs-card.typ-2 .suitable-icon-wrap .icon.aggreSsive {
+    background-image: url(../images/Aggressive-White.svg);
+}
+
+/*Thelve Box*/
+
+
+
+
+/*CSS For Background Image End*/
+
+.stickyHeader{
+    position: fixed;
+    width: 100%;
+    background: #0262A0;
+    /* color: red; */
+    z-index: 99;
+    top: 65px;
+}
+
+
+.customeradioBox input[type="radio"]:checked + label.maleIcon:after{
+    background: url(../images/Male_white.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox input[type="radio"]:checked + label.femaleIcon:after{
+    background: url(../images/Female_white.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox label.maleIcon:after, .customeradioBox label.femaleIcon:after{
+    content: '';
+    background-size: 32px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.customeradioBox label.maleIcon:after{
+    background: url(../images/Male_color.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox label.femaleIcon:after{
+    background: url(../images/Female_color.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+
+
+/*=========================================================================*/
+@media(max-width: 1200px){
+    .mgfpbenefitplansection .mgpcontainer{
+        padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+    }
+
+    .mgfpbenefitplansection .policycolumn .col-md-6{
+        flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .suitable-btn .btn-brand-1st{padding: 8px 10px;}
+    .homepagesection .innerhomequoteformbtn a{font-size: 12px;}
+
+    .suitlistsection .suitlist .thumbmainlist{
+        height: 610px;
+    }
+    .suitableanalysisbox.lastboxSec .suitanalysis-radio label{
+        min-height: 120px;
+    }
+    .suitableanalysisbox.firstboxSec .suitanalysis-radio label{
+        min-height: 120px;
+    }
+    .suitlistsection .suitable-contentbox li .suitanalysislistcircle:before{
+        font-size: 22px;
+        vertical-align: top;
+    }
+}
+/*=========================================================================*/
+
+/*=========================================================================*/
+@media(max-width: 991px){
+    .mgfpbenefitplansection .mgpcontainer{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .policylocationimage{width: 35px;}
+    .policyinboxlogo{width: 40px;}
+    .policyhammerlogo{width: 42px;}
+.homepagesection .col-md-6{
+flex: 0 0 100%;
+max-width: 100%;
+}
+
+.homepagesection .policycolumn .col-md-6{
+   flex: 0 0 50%;
+max-width: 50%; 
+}
+.homepagesection .innerhomequoteformbtn .col-md-6{
+    flex: 0 0 50%;
+max-width: 50%;
+}
+.homepagesection .innerhomequoteformbtn a{font-size: 14px;}
+.suitable-btn .btn-brand-1st{padding: 8px 20px;}
+.suitlistsection .suitlist .thumbmainlist{height: 380px;}
+.iconboxlogo{
+    width: 45px;
+}
+.iconsliderbox .iconslidecolumn .col-md-10{padding-left:15px!important ;}
+
+.mgfpbenefitplansection .policyincontent{padding-left: 25px;}
+
+.suitableanalysisbox .suitanalysis-radio label {
+    min-height: auto;
+}
+.suitableanalysisbox.lastboxSec .suitanalysis-radio label{
+        min-height: auto;
+    }
+    .suitableanalysisbox.firstboxSec .suitanalysis-radio label{
+        min-height: auto;
+    }
+
+}
+
+/*=========================================================================*/
+
+@media (min-width: 768px) and (max-width: 991px){
+  .suitableanalysiscontainer .col-md-4{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }  
+}
+
+/*=========================================================================*/
+@media(max-width: 767px) {
+    .mgfpbenefitplansection .policyinnercontbox{display: block;}
+    .mgfpbenefitplansection {  padding-bottom: 20px;}
+    .mgfpbenefitplansection .plantitle p br{display: none;}
+    .mgfpbenefitplansection .policyincontent {
+        padding-top: 5px;
+        padding-left: 0px;    
+    }
+    .mgfpbenefitplansection .policyinnercontbox .col-md-2 {
+        padding-right: 0px;
+        width: 23%;
+    }
+    .policyinnercontbox .col-md-10 {
+        padding-left: 0px;
+        width: 77%;
+    }
+    .policyinboxlogo{width: 48px;}
+    .policyhammerlogo{width: 48px;}
+    .policylist li {
+        margin-bottom: 8px;
+        line-height: 20px;
+    }
+    .policycontentrow{margin-bottom: 10px;}
+    .mgfpbenefitplansection .policyholderbox{
+        padding: 10px 0px;
+        margin-top: 0;
+    }
+   .mgfpbenefitplansection .plantitle h3 {
+        padding-bottom: 0px;
+        line-height: 24px;
+        font-size: 20px;
+            margin-bottom: 10px;
+
+    }
+    .mgfpbenefitplansection .plantitle p{
+        font-size: 16px;
+        line-height: 26px; 
+        padding-bottom: 10px;
+    }
+
+    .mgfpbenefitplansection .mgpcontainer {
+        width: 100% !important;
+        max-width: 100%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+ .radiobuttonboxcss .inspan { padding-left: 2px;}
+  .radiobuttonboxcss label { font-size: 16px;}
+    .suitablegoalblock{
+        margin-bottom: 15px;
+    }
+.suitablepopup .suitableinnerpopup{
+    padding: 30px 20px 35px;    
+        height: auto;
+    overflow-y:auto;
+}
+.suitablepoptitle h3{
+    margin-bottom: 10px;
+}
+.customModal.is-visible .suitableinnerpopup{
+    top: 3em;
+}
+.suitablegoalblock .col-md-2{
+    width: auto;
+    padding-right: 0px;
+}
+.suitablegoalblock .col-md-10{width: 80%;}
+.homepagesection .policycolumn .col-md-6{
+flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0px 15px!important;
+}
+.suitlistsection.suitcarouselList .suitlist .thumbmainlist{
+    padding: 5px 15px 10px 15px;
+    /*margin-bottom: 0;
+        margin-top: 0;*/
+
+}
+.suitlistsection .suitable-contentbox li .suitanalysislistcircle:before{
+    margin-right: 0;
+}
+.suitlistsection .suitable-contentbox li .suitanalysistext {
+    padding-left: 5px;
+}
+.suitlistsection .suitable-contentbox li {
+ font-size: 12px;
+ line-height: 22px;
+}
+.suitlistsection .suitable-btn{
+    bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.suitable-text h2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 26px;
+}
+
+.thumbmainlist .suitable-text h2 {
+    font-size: 22px;
+    
+}
+
+#childDetailpopup .suitableinnerpopup{
+    padding: 30px 20px 40px 20px;
+}
+.riderpopupcomponent .customModal-content .col-md-2{
+    width: 65px;
+}
+.riderpopupcomponent .customModal-content .col-md-10{
+    width: 75%;
+}
+.riderpopupcomponent .suitablepoptitle{padding: 0px 0px;}
+.benefitriderbox{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.riderpopupcomponent .benefitriderbox{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.suitablepopup .customModal-close{
+    right: 3px;
+    top: 5px;
+}
+.customeradioBox input[type="radio"] + label{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.riderpopupcomponent .suitableproceed {
+    width: 100%;
+    max-width: 96%;
+    margin-top: 5px;
+}
+.customModal-close img {
+    width: 25px;
+}
+.chooseGoal .static-form-container .form-field-container {
+    width: 100%;
+    max-width: 100%;
+    
+}
+.suitablepopup.chooseGoal .suitableproceed {
+    
+    width: 100%;
+    max-width: 100%;
+}
+.chooseGoal.customModal.is-visible .suitableinnerpopup {
+    top: 1.5em;
+}
+.chooseGoal .suitablepoptitle h3 {
+    margin-bottom: 0px;
+    text-align: left;
+
+}
+.riderpopupcomponent .benefitriderbox {
+    padding-top: 15px;
+}
+.riderpopupcomponent .suitableinnerpopup {
+    width: 19em;
+    padding: 35px 20px 20px 20px;
+    }
+.iconsliderbox .iconslidecolumn .col-md-2{
+width: auto;
+}
+
+.iconsliderbox .iconslidecolumn .col-md-10{
+width: 80%;
+}
+.iconboxlogo{width: 42px;}
+p.iconclaim br{display: none;}
+.mgfpiconsection .container{
+padding-left: 15px;
+padding-right: 15px;
+}
+.iconslidecolumn{padding: 15px;}
+
+
+.suitablecarouselsection .suitcarouselTitle {
+    font-size: 18px;
+        padding-top: 10px;
+}
+
+
+.suitablecarouselsection .suitcarouselPara {
+    font-size: 12px;
+        margin: 15px 0 20px;
+}
+.suitable-text span {
+    font-size: 12px;
+    padding-bottom: 0;
+
+}
+
+.mgfpbenefitplansection .plantitle .policyinnertitle{
+    font-size: 14px;
+        margin-bottom: 10px;
+}
+.customeradioBox input[type="radio"] + label.borderNone {
+    border-left: 1px solid #A7A8AA;
+}
+
+.riderpopupcomponent .suitablepoptitle h3 {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.suitablecarouselsection .container {
+    
+    margin-bottom: 35px;
+}
+.mgfpbenefitplansection .plantitle .policyowner .policyinnertitle {
+    margin-bottom: 10px;
+}
+.mgfpbenefitplansection .plantitle .familymemberpolicy .policyinnertitle {
+    margin-bottom: 10px;
+}
+
+.riderpopupcomponent .static-form-container .form-field-container{
+        margin-bottom: 20px;
+}
+.suitcarouselList .suitable-text {
+    min-height: 60px;
+}
+
+.benefitcontent p {
+    
+    text-align: center;
+    padding: 10px 15px 0 15px;
+    line-height: 14px;
+}
+.benefitcontent {
+        padding-left: 0;
+}
+.customeradioBox label.maleIcon:after {
+    left: 27px;
+}
+.customeradioBox label.femaleIcon:after{
+    left: 27px;
+}
+
+.suitlistsection.suitcarouselList .owl-dots {
+    
+    bottom: 0px;
+    
+}
+
+}
+
+
+
+
+@media(max-width: 576px){
+    .suitanalysiscalculator .suitanalysis-maintitle{
+        margin-left: 0px;
+        padding-left: 17px;
+        font-size: 20px;
+    }
+    .homepagesection .innerhomequoteformbtn .col-md-6{
+        flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0px 15px!important;
+    }
+
+    .suitable-btn .btn-brand-1st{
+        padding: 8px 25px;
+    font-size: 11px;
+    }
+    .suitlistsection .suitlist .thumbmainlist{height: 340px;
+    padding: 10px 15px 10px 15px;}
+    .suitanalysiscalculator .suitableanalysiscontainer{
+        padding: 0px;
+    background-color: transparent;
+    box-shadow: none;
+    }
+    .suitanalysiscalculator .container{
+        padding: 0 15px 0 15px;
+    }
+    .suitableanalysiscontainer h3 {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    .suitanalysiscalculator .suitanalysis-maintitle{
+            padding-bottom: 20px;
+            font-size: 18px;
+    }
+    .suitanalysiscalculator .proceed{
+        max-width: 100%;
+    }
+    .suitable-bs-card.typ-2 .suitable-card-head {
+        padding: 10px 15px;
+    }
+}
+/*=========================================================================*/
+/*@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}s
+*/
+
+
+
+CSS For Custome Radio Buttons

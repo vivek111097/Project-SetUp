@@ -1,0 +1,31 @@
+.block1{
+    width: 62%;
+}
+
+.block2{
+    width: 35%;
+}
+
+.residentCont .note2{
+    margin-top: 20px;
+    
+}
+
+.detailsSec.firstSec {
+    border-right: 1px solid #C2EAFF;
+    width: 58%;
+}
+
+.detailsSec.secondSec{
+    width: 42%;
+}
+
+.inputDetailsSec {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.personalDetailsWrap .secondSec {
+    padding-left: 30px;
+}

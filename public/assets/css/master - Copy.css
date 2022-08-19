@@ -1,0 +1,2201 @@
+body,
+html {
+    /*overflow-x: hidden;*/
+    max-width: 100%;
+    /*height: auto;*/
+    font-family: "MetLifeCircular";
+}
+body {
+    padding-top: 0px;
+
+}
+
+.btn-brand-1st{
+    font-family: 'Noto Sans', sans-serif;
+}
+.iconsliderbox{background:#eae7e7;}
+.mgfpbenefitbg { background: #fafafa;}
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?k7jzhs');
+    src: url('..fonts/icomoon.eot?k7jzhs#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff2?k7jzhs') format('woff2'), url('../fonts/icomoon.ttf?k7jzhs') format('truetype'), url('../fonts/icomoon.woff?k7jzhs') format('woff'), url('../fonts/icomoon.svg?k7jzhs#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Light.woff2") format("woff2"), url("../fonts/MetLifeCircular-Light.woff") format("woff");
+    font-weight: 200;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-LightItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-LightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Normal.woff2") format("woff2"), url("../fonts/MetLifeCircular-Normal.woff") format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-NormalItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-NormalItalic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Medium.woff2") format("woff2"), url("../fonts/MetLifeCircular-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-MediumItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-Bold.woff2") format("woff2"), url("../fonts/MetLifeCircular-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "MetLifeCircular";
+    src: url("../fonts/MetLifeCircular-BoldItalic.woff2") format("woff2"), url("../fonts/MetLifeCircular-BoldItalic.woff") format("woff");
+    font-weight: 700;
+    font-style: italic
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal; 
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Female-1_W:before { content: "\e900";}
+
+.icon-Female_W:before { content: "\e901";}
+
+.icon-Male-1_W:before { content: "\e902";}
+
+.icon-Male_W:before { content: "\e903";}
+
+.icon-Money-bag:before {
+    content: "\e904";
+}
+
+.icon-Other_W:before {
+    content: "\e905";
+}
+
+.container.maxWidth{
+	max-width: 1266px;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.topSpacing{
+	padding-top: 95px;
+}
+
+.mainheadingWrap img{
+    width: auto;
+    
+}
+
+.mainheadingWrap .arrowSec a{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mainheadingWrap .arrowSec{
+    position: relative;
+}
+
+.mainheadingWrap h2{
+    margin: 0 0 20px;
+    padding: 0;
+    padding-left: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 2px;
+    color: #000000;
+}
+
+.zeroDigit{
+	display: none;
+}
+
+/*...........CSS For Homepage Banner Start Here...........*/
+
+header{
+	padding: 10px 0 8px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0px 3px 6px #00000029;
+    top: 0;
+}
+
+/*.futureplanLogo h3{
+	margin: 0;
+    color: #333333;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}*/
+
+.futureplanLogo p{
+    margin:0;
+    padding: 5px 9px 4px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 14px;
+    /*background: rgb(164,206,78);
+    background: linear-gradient(90deg, rgba(164,206,78,1) 0%, rgba(0,97,160,1) 33%);*/
+    background: rgb(164,206,78);
+    background: linear-gradient(90deg, rgba(164,206,78,1) 0%, rgba(2,98,160,1) 38%);
+    font-weight: 500;
+}
+
+.futureplanLogo span{
+	font-size: 14px;
+    line-height: 19px;
+    color: #333;
+    font-weight: 700;
+    
+}
+
+.chooseplanSec p{
+		margin: 0;
+	    color: #333333;
+	    line-height: 16px;
+	    font-size: 12px;
+	    font-weight: 400;
+	}
+	.chooseplanSec{
+		background: #C2EAFF;
+    	padding: 10px 10px;
+    	display: none;
+	}
+
+.navstripWrap.stickyHeader{
+	position: fixed;
+    width: 100%;
+    background: #0262A0;
+    /* color: red; */
+    z-index: 99;
+    top: 70px;
+    left: 0;  
+
+}
+
+
+.headerWrapper .headerLogo{
+	max-width: 170px;
+    width: 100%;
+}
+
+.headerWrapper .futureplanLogo{
+	position: absolute;
+    right: 15px;
+    top: 2px;
+}
+
+.headerWrapper .futureplanLogo img{
+	/*max-width: 78px;*/
+    width: 100%;
+}
+
+.headerWrapper .headerLogo{
+	max-width: 170px;
+    width: 100%;
+}
+
+.static-form-container .getquoteWrap .policycolumn.lessMargin .form-field-container{
+	margin-bottom: 15px;
+
+}
+
+
+
+
+
+.resumeiconWrap .arrowSec{
+	width: 36px;
+	height: 36px;
+	margin-bottom: 10px;
+	visibility: visible;
+	position: relative;
+	z-index: 999;
+}
+.resumeiconWrap .arrowSec.showIcon{
+	visibility: visible;
+}
+
+.dreamhomeSec .policyleftbox h2{
+	color: #0061a0;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+
+.mgfpbenefitplansection.dreamhomeSec .policyholderbox{
+	padding-top: 15px;
+}
+
+.dreamhomeSec .paygeticonSec h4{
+	margin: 0;
+    color: #009445;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.paygeticonSec .iconBox h3{
+	margin: 0;
+    color: #009445;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0px 0 0px 0;
+}
+
+.paygeticonSec .geticonSec .iconBox h3{
+    color: #0068a6;
+}
+
+.paygeticonSec .geticonSec .iconBox p{
+    color: #0068a6;
+}
+
+.paygeticonSec .iconBox p{
+	margin: 0;
+    color: #009445;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.paygeticonSec{
+	text-align: center;
+}
+
+.paygeticonSec .iconBox img{
+	width: 57px;
+	height: auto;
+}
+
+.paygeticonSec .twiconBox .iconBox img{
+	width: 119px;
+	height: auto;
+}
+
+.paygeticonSec .twiconBox{
+	width: 100%;
+	max-width: 45%;
+	
+}
+
+.paygeticonSec .oneiconBox{
+	width: 100%;
+	max-width: 45%;
+	
+}
+
+.paygeticonSec .oneiconBox .iconBox img{
+	width: 89px;
+	height: auto;
+}
+
+.paygeticonSec .plusiconBox .iconBox img{
+	width: 20px;
+	height: auto;
+}
+
+
+.dreamhomeSec .paygeticonSec .getSec h4{
+	color: #0068a6;
+	    padding-bottom: 10px;
+}
+
+.paygeticonSec .geticonSec{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.paygeticonSec .geticonSec .plusiconBox{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.paygeticonSec .bannertxt p{
+	text-align: justify;
+    font-size: 14px !important;
+    line-height: 20px;
+    padding: 10px 0 0 0;
+}
+
+.policyiconcontbox .paygeticonSec:before {
+    content: '';
+    background: url(../images/10a-icon4.jpg);
+    width: 140px;
+    height: 143px;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0px;
+}
+
+.policyiconcontbox{
+	position: relative;
+}
+
+.dreamhomeSec .plantitle h3{
+	margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+        padding: 10px 0;
+}
+
+.dreamhomeSec .resumeappSec p{
+	text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 0px;
+    margin-bottom: 0 !important;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;
+}
+
+.dreamhomeSec .policyowner .appField{
+	max-width: 282px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.dreamhomeSec .policyowner{
+	margin: 20px 0 25px;
+}
+
+.dreamhomeSec .policyholderbox .proceed{
+	padding: 15px 0px;
+    margin: 0 auto 20px;
+    width: 100%;
+    max-width: 191px;
+}
+
+.dreamhomeSec .bgbox{
+	border-top: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left,#a2cf42 calc(10%),#008edd calc(100%),#fff calc(100%));
+}
+
+.dreamhomeSec .plantitle .resumeappSec h3{
+	padding: 0 0 10px 0;
+	font-family: "MetLifeCircular";
+}
+
+.dreamhomeSec .arrowSec .arrowIcon img{
+	width: 16px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+    position: absolute;
+}
+
+.dreamhomeSec .arrowSec .arrowIcon{
+	width: 36px;
+    height: 36px;
+    background: #c2eaff;
+    border-radius: 100%;
+    position: relative;
+}
+
+.dreamhomeSec .arrowSec .arrowIcon a{
+	width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.dreamhomeSec .plantitle .iconBox h3{
+	padding: 0;
+}
+
+.proceedBtn{
+	width: 100%;
+	max-width: 300px;
+	    margin: 0 auto;
+	    padding: 15px 0;
+}
+
+.proceedBtn a{
+	width: 100%;
+	display: block;
+}
+
+.futureplanDetails h6{
+	margin: 0;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.futureplanDetails h2{
+	font-size: 22px;
+    margin: 0;
+    color: #000000;
+    font-weight: 500;
+    padding: 5px 0 0;
+}
+
+.mgfpbenefitplansection .plantitle .futureplanDetails p{
+	margin: 0;
+    color: #333333;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 5px;
+}
+
+.futureplanDetails{
+	padding: 15px 0;
+}
+
+.futureplanDetails{
+	display: none;
+}
+
+.resumenowSec p{
+	font-weight: bold;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 0px;
+        padding-top: 5px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.resumenowSec p a{
+	color: #007ABC;
+	text-decoration: underline;
+}
+
+.homepagesection .innerhomequoteform{
+	border-top: 4px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left,#a2cf42 calc(10%),#008edd calc(100%),#fff calc(100%));
+    box-shadow: 5px 5px 18px #0000001c;
+}
+
+.homepagesection .innerhomequoteformbtn a {
+    max-width: 215px;
+    padding: 15px 0px;
+    margin-top: 20px;
+}
+
+.homepagesection .innerhomequoteformbtn{
+	text-align: center;
+}
+
+.innerhomequoteform.bgbox{
+	padding: 20px 25px 30px 25px;
+}
+
+.homesubmitcheck p a{
+	text-decoration: underline;
+}
+
+.formOverlay{
+	position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: visibility 0s linear 0.3s, opacity 0.3s;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+
+}
+.innerhomequoteform{
+	position: relative;
+	z-index: 99;
+}
+/*.resumenowSec{
+	position: relative;
+	z-index: 99;
+}*/
+
+.formOverlay.activeOverlay{
+	opacity: 1;
+	visibility: visible;
+	transition-delay: 0s;
+	/*backdrop-filter: blur(4px);*/
+}
+
+.navstripWrap{
+	background: #0262A0;
+    margin: 0px 0 0px;
+    -webkit-transition: all 0.5s ease;
+  -moz-transition: position 10s;
+  -ms-transition: position 10s;
+  -o-transition: position 10s;
+  transition: all 0.5s ease;
+}
+
+.navstripWrap ul a{
+	color: #ffffff;
+}
+
+.navstripWrap ul{
+	padding: 0;
+	margin: 0;
+	display: flex;
+    justify-content: space-between;
+}
+
+.navstripWrap ul li a{
+	font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+	font-size: 18px;
+	padding: 11px 0;
+	display: block;
+    
+}
+
+.navstripWrap ul li a:hover{
+	text-decoration: none !important;
+    
+}
+
+.resumeiconWrap{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.resumeiconWrap .arrowSec{
+	visibility: hidden;
+}
+
+.homecontainer .mgfpBanner{
+	padding-top: 15px;
+}
+
+.iconslidecolumn.formCarousel .col-md-9{
+	padding-left: 0;
+}
+
+.homepagesection.topSpacing{
+		padding-top: 0px;
+		margin-top: 70px;
+	}
+.homepagesection .homecontainer{
+		padding: 15px 0 30px;
+	}
+
+
+
+@media screen and (max-width: 1366px){
+
+	.homepagesection.topSpacing{
+		padding-top: 0px;
+		margin-top: 70px;
+	}
+	.homepagesection .homecontainer{
+		padding: 15px 0 30px;
+	}
+	/*.navstripWrap.stickyHeader{
+	    top: 43px;
+	}*/
+	
+}
+
+@media screen and (max-width: 1199px) {
+	.homepagesection {
+    	padding-top: 8%;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.navstripWrap ul li a {
+	    
+	    font-size: 14px;
+	    
+	}
+	.iconslidecolumn {
+	    position: absolute;
+	    top: 80%;
+	    
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.container{
+		padding: 0 15px !important;
+	}
+	.topSpacing {
+    padding-top: 95px;
+}
+	.dreamhomeSec .resumeappSec p {
+	    padding: 0px 15px;
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+	.dreamhomeSec .policyowner .appField {
+	    max-width: 100%;
+	}
+	.dreamhomeSec .policyowner {
+	    margin: 25px 0 15px;
+	}
+	
+	.resumeiconWrap .arrowSec{
+		visibility: hidden;
+		    margin-bottom: 0;
+	}
+	.proceedBtn {
+	    width: 100%;
+	    max-width: 100%;
+	}
+	.dreamhomeSec .plantitle .resumeappSec h3{
+		font-size: 18px;
+	}
+	.mgfpbenefitplansection.dreamhomeSec .policyholderbox {
+	    padding: 15px 10px;
+	}
+	.futureplanDetails{
+		display: block;
+	}
+	.resumeiconWrap{
+		align-items: center;
+		    margin-bottom: 15px;
+	}
+	.dreamhomeSec .policyholderbox .proceed {
+	    padding: 10px 0px;
+	    margin: 0 0 0px 0;
+	}
+
+	.homepagesection .innerhomequoteformbtn a {
+    	max-width: 270px;
+    	width: 100%;
+	}
+	.homepagesection .container{
+		padding: 0 15px;
+	}
+	.resumenowSec p{
+		font-size: 12px;
+		padding-bottom: 0px;
+	}
+	.innerhomequoteform.bgbox {
+	    padding: 15px 10px 25px 10px;
+	}
+	.homepagesection .innerhomequoteform .innerhomequoteformtitle {
+	    font-size: 18px;
+	    margin-bottom: 15px;
+	}
+	.homecontainer .futureplanDetails{
+		display: block;
+		padding: 25px 0 15px;
+	}
+
+
+
+	.navstripWrap {
+	    
+	    display: none;
+	    
+	}
+	.dreamhomeSec .policyholderbox .proceed {
+	    padding: 15px 0px;
+	    margin: 0 0 0px 0;
+	        max-width: 100%;
+	}
+	
+	.iconslidecolumn {
+	    display: block !important;
+	    
+	}
+
+	.futureplanLogo h3 {
+	    font-size: 10px;
+	    line-height: 14px;
+	}
+
+	.futureplanLogo span {
+    	font-size: 10px;
+    	line-height: 14px;
+	}
+	.headerWrapper .futureplanLogo {
+	    
+	    top: -8px;
+	}
+
+	.futureplanLogo p {
+	    font-size: 14px;
+	    
+	}
+
+	.homepagesection.topSpacing{
+		padding-top: 10px;
+	}
+
+	.iconslidecolumn.formCarousel {
+	    top: 40%;
+	    max-width: 300px;
+	    padding: 10px 10px;
+	}
+
+	.iconslidecolumn.formCarousel .col-md-9 {
+	    padding-left: 15px;
+	}
+	.iconslidecolumn.formCarousel .iconTitle {
+	    font-size: 18px;
+	    line-height: 22px;
+	    text-align: center;
+	    padding: 15px 0;
+	}
+	.iconslidecolumn.owl-carousel .owl-item img {
+	    
+	    margin: 0 auto;
+	}
+	.iconslidecolumn.formCarousel .owl-dots{
+		text-align: center;
+	}
+	.iconslidecolumn.formCarousel .iconboxlogo.addBenefitimg {
+    padding-top: 0;
+}
+
+.resumeiconWrap .arrowSec.showIcon {
+    margin-bottom: 0;
+}
+
+
+}
+
+/*...........CSS For Homepage Banner End Here...........*/
+
+
+/*...........CSS For Welcome Karan Popup Start Here...........*/
+
+.otppopupSec.welcomepopupSec .benefitcontent p{
+	padding: 0px 52px;
+}
+
+.otppopupSec.welcomepopupSec .verifyBtn {
+    margin: 20px 0 0 0;
+    padding: 15px 0px;
+    max-width: 154px;
+}
+
+.otppopupSec.welcomepopupSec .yesBtn{
+	margin: 20px 0 10px;
+    padding: 15px 0px;
+     max-width: 154px;
+}
+
+
+.welcomepopupSec  p{
+	margin: 0;
+    text-align: center;
+    /*padding: 15px 60px;*/
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    line-height: 26px;
+}
+
+.welcomepopupSec .popupContent{
+	text-align: center;
+	padding: 5px 80px 0;
+}
+
+.welcomepopupSec .nxtslideContent{
+	text-align: center;
+	padding: 5px 0px 0;
+}
+
+.welcomepopupSec p.slideTxt{
+	padding: 5px 0px 0px 0;
+}
+
+.otppopupSec .suitablepoptitle h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    padding-right: 0;
+    margin: 0;
+}
+
+.otppopupSec .benefitcontent p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px 0px 0;
+    margin: 0;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    line-height: 20px;
+}
+
+.otppopupSec .form-field-container{
+	width: 100%;
+    max-width: 186px;
+    margin: 0 auto;
+}
+
+.otppopupSec .verifyBtn{
+	margin: 25px 0 20px;
+	padding: 15px 0px;
+	width: 100%;
+	max-width: 186px;
+
+}
+
+.otppopupSec .otptimeSec{
+	text-align: center;
+	line-height: 15px;
+}
+
+.otppopupSec .otptimeSec a.resend{
+	margin-top: 10px;
+	display: none;
+}
+.otppopupSec .otptimeSec a.active {
+	display: block;
+	text-decoration: underline;
+	pointer-events: all;
+	color: #0061a0;
+}
+
+.otppopupSec .otptimeSec a{
+	font-size: 12px;
+    text-decoration: none;
+    pointer-events: none;
+  	display: block;
+    color: #000000;
+    font-weight: 400;
+}
+
+.otppopupSec .nxtslideContent .otptimeSec a{
+	font-size: 14px;
+    text-decoration: underline;
+    pointer-events: all;
+    display: block;
+    color: #0061A0;
+    font-weight: 400;
+}
+
+.otppopupSec .otptimeSec p{
+	margin: 0;
+    font-weight: bold;
+    padding: 10px 0 0 0;
+    color: #333333;
+    font-size: 14px;
+}
+
+.otppopupSec .otptimeSec p.plainTxt{
+	font-weight: normal;
+	padding-bottom: 10px;
+	    padding-top: 0;
+	    font-size: 14px;
+}
+
+.riderpopupcomponent .suitableinnerpopup.otppopupSec{
+	width: 100%;
+	padding: 40px 0 20px 0;
+	max-width: 402px;
+}
+
+.riderpopupcomponent .suitableinnerpopup.otppopupSec.welcomepopupSec{
+	width: 100%;
+	padding: 30px 0 30px 0;
+	max-width: 540px;
+}
+
+.otppopupSec .benefitriderbox {
+    padding-top: 20px;
+}
+
+.otppopupSec .benefitcontent {
+    padding-left: 0px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+	.otppopupSec.welcomepopupSec .benefitcontent p{
+		padding: 0px 30px;
+	}
+	.otppopupSec.welcomepopupSec .verifyBtn {
+    	padding: 15px 0px;
+    	max-width: 210px;
+    	width: 100%;
+    	    margin-top: 15px;
+	}
+	/*.otppopupSec.welcomepopupSec .yesBtn {
+	    padding: 11px 91px;
+	}*/
+	.welcomepopupSec p {
+	    
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.welcomepopupSec .popupContent, .welcomepopupSec .nxtslideContent {
+	    
+	    padding: 10px 0px 0;
+	}
+	.welcomepopupSec p.slideTxt {
+    	padding: 10px 0px;
+	}
+	.suitablepopup .otppopupSec .customModal-close img{
+		width: 20px;
+	}
+
+	.suitablepopup .otppopupSec .customModal-close{
+		top: 6px;
+	}
+	.otppopupSec.welcomepopupSec .yesBtn {
+	    margin: 20px 0 10px 0;
+	    max-width: 210px;
+	    width: 100%;
+	    padding: 15px 0;
+	}
+
+	.riderpopupcomponent .suitableinnerpopup.otppopupSec {
+	    height: auto;
+	}
+	.otppopupSec .benefitcontent p {
+	    padding: 10px 10px 0px;
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+	.otppopupSec .benefitriderbox {
+	    padding-top: 15px;
+	}
+	.otppopupSec .verifyBtn {
+	    margin: 5px 0 20px 0;
+	    width: 100%;
+	    max-width: 210px;
+	    padding: 15px 0;
+	}
+	.otppopupSec .otptimeSec p {
+	    padding: 15px 0 0 0;
+	}
+	.riderpopupcomponent .suitableinnerpopup.otppopupSec {
+	    width: 100%;
+	    padding: 35px 20px 25px 20px;
+	    max-width: 328px;
+	}
+
+	.riderpopupcomponent .suitableinnerpopup.otppopupSec.welcomepopupSec{
+		width: 100%;
+	    padding: 35px 10px 35px 10px;
+	    max-width: 328px;
+
+	}
+	.otppopupSec .suitablepoptitle h3 {
+	    font-size: 18px;
+	    margin-bottom: 0;
+	    padding-right: 0;
+	}
+	.riderpopupcomponent .otppopupSec .static-form-container .form-field-container {
+	    margin-bottom: 10px;
+	    width: 100%;
+    	max-width: 210px;
+	}
+	.otppopupSec .otptimeSec a.resend {
+	    margin-top: 15px;
+	}
+	
+}
+
+/*...........CSS For Welcome Karan Popup End Here...........*/
+
+
+
+
+/*CSS For Screen 10C Start Here*/
+
+.suitablecarouselsection.topSpacing{
+	padding-top: 95px;
+}
+
+.applyplan-carousel-page{
+	background: #fafafa;
+}
+
+.owl-carousel {
+    display: block;
+
+}
+
+.owl-dots{
+  text-align: center;
+    display: block;
+    position: absolute;
+    bottom: -32px;
+    width: 90%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.owl-dot {
+    background: #A4CE4E!important;
+    width: 9px;
+    height: 9px;
+    margin: 0px 3px;
+    border-radius: 50%;
+}
+
+.owl-dot.active {
+    background: #0061A0!important;
+    outline: none;
+}
+
+.suitablecarouselsection .userquoteSec{
+	display: flex;
+    flex-direction: row;
+}
+
+.userquoteSec .detailsSec{
+	padding-left: 20px;
+}
+
+.userquoteSec .detailsSec h5{
+	margin: 0;
+    padding: 5px 0 5px 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.userquoteSec .detailsSec p{
+  margin: 0;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.suitablecarouselsection .planbtnWrap{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.plancarouselSec .suitable-text p{
+	margin: 0;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.plancarouselSec .suitable-text p.subTxt{
+    margin: 0;
+    color: #333333;
+    font-size: 14px;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;
+    font-weight: normal;
+}
+
+.plancarouselSec .suitable-text h2{
+	margin: 0;
+	padding: 5px 0;
+	font-size: 18px;
+	line-height: initial;
+  font-weight: 700;
+  color: #333333;
+}
+
+.plancarouselSec .suitable-contentbox p{
+	     color: #757575;
+    margin: 0;
+    padding: 5px 0 5px 0;
+    font-size: 12px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.suitable-contentbox .progressbarSec{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.barSec{
+	width: 50%;
+	text-align: center;
+}
+
+.bardetailSec{
+	width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.progress-bar {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: transparent;
+  margin: 0 auto;
+      transform: rotate(
+270deg);
+}
+
+.progress-bar div {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.progress-bar div span {
+  position: absolute;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 75px;
+  height: 80px;
+  width: 80px;
+  left: 10.2px;
+  top: 10.2px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  transform: rotate(
+90deg);
+}
+
+.progress-bar .background { background-color: #b3cef6; }
+
+.progress-bar .rotate {
+  clip: rect(0 50px 100px 0);
+  background-color: #4b86db;
+}
+
+.progress-bar .left {
+  clip: rect(0 50px 100px 0);
+  opacity: 1;
+  background-color: #b3cef6;
+}
+
+.progress-bar .right {
+  clip: rect(0 50px 100px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #4b86db;
+}
+
+@keyframes 
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}
+
+.plancarouselSec .suitable-contentbox .bardetailSec p{
+
+	padding: 0;
+
+}
+
+.plancarouselSec .suitable-contentbox .bardetailSec p.boldTxt{
+
+	color: #333333;
+
+}
+
+.suitlistsection.plancarouselSec .suitlist .thumbmainlist{
+	padding: 20px 20px;
+}
+
+.plancarouselSec.suitlistsection .suitable-btn {
+    bottom: 0;
+    position: inherit;
+    margin-top: 10px;
+}
+.plancarouselSec .suitable-btn .suitablecallbtn{
+	width: 100%;
+}
+
+.suitlistsection.plancarouselSec .suitlist .thumbmainlist{
+	height: auto;
+    width: 100%;
+      margin: 10px 0;
+    border-color: #ececec;
+    border-radius: 0;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 5%);
+-webkit-box-shadow: 0px 2px 8px 0px rgba(0,0,0 / 5%);
+-moz-box-shadow: 0px 2px 8px 0px rgba(0,0,0 / 5%);
+}
+
+.planslider_edge{
+	padding-left: calc(1300px * 0.08333 + 0.5 * (100vw - 1320px));
+    padding-right: 40px;
+}
+
+.mobplanbtnSec{
+  width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: none;
+
+}
+
+.mobplanbtnSec .btn-brand-1st{
+  width: 100%;
+      height: 50px;
+}
+
+.plancarouselSec .suitable-btn .btn-brand-1st {
+    padding: 13px 8px;
+}
+
+.plancarouselSec.suitcarouselList .owl-carousel .owl-nav {
+    position: absolute;
+    top: -45px;
+    right: 7px;
+}
+
+.planbtnWrap .planbtnSec{
+	max-width: 216px;
+    width: 100%;
+}
+
+.planbtnWrap .planbtnSec .btn-brand-1st{
+	width: 100%;
+    padding: 15px 0;
+}
+
+@media screen and (max-width: 1366px){
+
+  .plancarouselSec .suitable-btn .btn-brand-1st {
+      padding: 8px 8px;
+  }
+  /*.suitlistsection.plancarouselSec .suitlist .thumbmainlist{
+    width: 290px;
+        
+  }*/
+  .bardetailSec {
+    padding-left: 30px;
+}
+
+
+}
+
+@media screen and (max-width: 1199px) {
+
+  .bardetailSec {
+    padding-left: 20px;
+  }
+
+  
+.planslider_edge {
+    padding-left: calc(1300px * 0.08333 + 0.5 * (100vw - 1140px));
+    padding-right: 40px;
+}
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .bardetailSec {
+    padding-left: 40px;
+  }
+  .suitlistsection.plancarouselSec .suitlist .thumbmainlist {
+    width: auto;
+}
+.planslider_edge {
+    padding-left: calc(1300px * 0.08333 + 0.5 * (100vw - 900px));
+    padding-right: 40px;
+}
+.planbtnSec .btn-brand-1st{
+    padding: 10px 10px;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  .planbtnSec{
+    display: none;
+  }
+  .mobplanbtnSec{
+    display: block;
+  }
+  .userquoteSec .detailsSec p{
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .plancarouselSec .suitable-text h2 {
+    font-size: 16px;
+  }
+  .plancarouselSec .suitable-text p {
+    font-size: 14px;
+  }
+  .suitlistsection.plancarouselSec .suitlist .thumbmainlist {
+    padding: 10px;
+    margin: 0 0 10px 0;
+  }
+  .bardetailSec {
+    padding-left: 30px;
+  }
+  .planslider_edge {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .suitlistsection.plancarouselSec .suitlist .thumbmainlist {
+      width: auto;
+  }
+  .userquoteSec .detailsSec h5 {
+      font-size: 18px;
+  }
+  .plancarouselSec .thumbmainlist .suitable-text h2 {
+    font-size: 18px;
+  }
+  .suitlistsection.suitcarouselList.plancarouselSec .suitlist .thumbmainlist {
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 10px;
+}
+.suitablecarouselsection.topSpacing {
+    padding-top: 75px;
+}
+.suitablecarouselsection .container {
+    margin-bottom: 15px;
+}
+  
+}
+
+
+/*CSS For Screen 10C End Here*/
+
+
+
+
+
+
+/*CSS For Screen 9a Start Here*/
+
+
+.arrowIcon {
+    width: 36px;
+    height: 36px;
+    background: #c2eaff;
+    border-radius: 100%;
+    position: relative;
+}
+.arrowIcon a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}.arrowIcon img {
+    width: 16px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 49%;
+    position: absolute;
+}
+
+.suitablecarouselsection .arrowSec{
+    float: left;
+    padding: 0;
+    width: auto;
+    margin-bottom: 30px;
+}
+.sitable-img img{
+    width: auto !important;
+}
+
+.suitlist .suitbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .sitable-img img {
+        width: 30px !important;
+    }
+    .suitablecarouselsection .arrowSec {
+        padding-right: 10px;
+        height: auto;
+    }
+    .suitablecarouselsection .arrowSec{
+    	visibility: visible;
+    }
+    .suitablecarouselsection .suitcarouselTitle {
+	    padding-top: 3px;
+	}
+	.suitablecarouselsection .suitcarouselPara {
+	    
+	    margin: 10px 0 0px;
+	}
+	.suitlist .suitbox {
+	    
+	    align-items: center;
+	}
+
+	.plantabList li {
+	    
+	    padding: 10px 18px !important;
+	    margin: 0px 0 15px;
+	}
+}
+
+
+/*CSS For Screen 9a End Here*/
+
+
+/*CSS for Custome Radio Button Start Here*/
+
+.customeradioBtn .customtBtn {
+  display: block;
+    position: relative;
+    padding-left: 27px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333333;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+
+}
+
+.customeradioBtn .customtBtn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.customeradioBtn .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 2px solid #333333;
+}
+
+.customeradioBtn .customtBtn:hover input ~ .checkmark {
+  background-color: #ffffff;
+}
+
+.customeradioBtn .customtBtn input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+
+.customeradioBtn .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.customeradioBtn .customtBtn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.customeradioBtn .customtBtn .checkmark:after {
+    top: 3px;
+    left: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #0061a0;
+}
+
+.customeradioBtn{
+    display: flex;
+    flex-direction: row;
+}
+
+.customeradioBtn .yesBtn{
+    padding-right: 20px;
+}
+
+.customeradioBtn label{
+    margin-bottom: 0;
+}
+
+/*CSS for Custome Radio Button End Here*/
+
+
+
+/*CSS For Custome Mr & Ms Radio Buttons Start*/
+
+.customeradioBox input[type="radio"]{
+    /* hide the inputs */
+    opacity: 0;
+    display: none;
+    margin: 0;
+}
+
+.customeradioBox input[type="radio"] + label{
+    /* keep pointer so that you get the little hand showing when you are on a button */
+    cursor: pointer;
+    /* the following are the styles */
+    float: left;
+    padding: 14px 10px;
+    background: #F2F2F2;
+    border: 1px solid #CCCCCC;
+    
+    text-shadow: 1px 1px 0 rgba(0,0,0,0);
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    /*font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif' ;*/
+    color: #333333;
+    font-weight: 400;
+    position: relative;
+}
+
+.customeradioBox input[type="radio"]:checked + label{
+    
+    font-weight: bold;
+    background: linear-gradient(94deg,rgba(0,39,65,1) 58%,rgba(0,77,127,1) 86%);
+    border-color: #333333;
+    color: #ffffff;
+    
+}
+
+.static-form-container .policyownerSec .form-field-container select{
+    border-color: #333333;
+}
+
+.customeradioBox input[type="radio"] + label.borderNone{
+    border-left: none;
+}
+
+.customradioboxSec ul{
+    padding: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customradioboxSec ul li{
+    width: 100%;
+}
+
+/*CSS For Custom Mr & Ms. Radio Buttons End*/
+
+
+/*CSS For Custom Checkbox Start Here*/
+
+
+.homesubmitcheck {
+    width: auto;
+    position: relative;
+    margin: 0;
+    border-radius: 2px;
+    padding-left: 25px;
+}
+
+.homesubmitcheck input[type=checkbox] {
+    opacity: 0;
+}
+
+.homesubmitcheck input {
+    position: absolute;
+}
+
+.homesubmitcheck.tearmCondations label {
+    cursor: pointer;
+    position: relative;
+    padding: 0px 0 0 25px;
+    margin-left: -25px;
+    color: #333;
+    width: 100%;
+    height: auto;
+}
+
+.homesubmitcheck input[type=checkbox]:checked + label:before {
+    border-color: #007abc;
+    background: #007abc;
+}
+
+.homesubmitcheck label:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+    border: solid 2px #BBBBBB;
+}
+
+.homesubmitcheck.tearmCondations label p {
+    font-size: 10px;
+    margin: 0;
+    padding-left: 7px;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+    line-height: 13px;
+}
+
+.homesubmitcheck input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+.homesubmitcheck label:after {
+    content: '';
+    width: 11px;
+    height: 6px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    opacity: 0;
+    -webkit-transform: rotate( 
+-45deg );
+    -ms-transform: rotate(-45deg);
+    transform: rotate( 
+-45deg );
+}
+
+
+/*CSS For Custom Checkbox End Here*/
+
+/*CSS For Male Female Icon Start Here*/
+
+
+.customeradioBox .group{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.customeradioBox input[type="radio"] + label span{
+    position: relative;
+    padding: 0 40px;
+}
+
+.customeradioBox input[type="radio"]:checked + label.maleIcon span:after {
+    background: url(../images/Male_white.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox input[type="radio"]:checked + label.femaleIcon span:after {
+    background: url(../images/Female_white.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox label.femaleIcon span:after {
+    background: url(../images/Female_color.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox label.maleIcon span:after {
+    background: url(../images/Male_color.svg);
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.customeradioBox label.maleIcon span:after, .customeradioBox label.femaleIcon span:after {
+    content: '';
+    background-size: 32px;
+    position: absolute;
+    top: -8px;
+    left: 0px;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+
+/*CSS For Male Female Icon End Here*/
+
+
+
+/*CSS For Selectpicker Start Here*/
+
+.form-field-container.dropdownArrow:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    border-top: 6px solid #000;
+}
+
+/*CSS For Selectpicker End Here*/
+
+/***Common Style Start***/
+.mainCont{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    padding: 29px 31px;
+        
+}
+
+.detailsCont {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #D9D9D6;
+    position: relative;
+}
+
+.detailsSec {
+    padding: 0px 10px;
+} 
+
+.secTitle {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 0 0 17px;
+}
+
+.subTitle {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+label {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    margin: 0;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.details {
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+    font-family : 'Noto Sans', 'Arial', 'Helvetica', 'sans-serif';
+} 
+
+.ownerImg img {
+    width: auto;
+}
+/***Common Style End***/
+
+
+/****Form Style Changes Start****/
+.formElementsSec {
+    padding: 30px 0px;
+    /*padding-bottom: 30px;*/
+    border-bottom: 1px solid #d9dad5;
+}
+
+.formElementsSec.appointeedetailsSec{
+	padding-bottom: 0;
+}
+
+.nomineetypesSec .proceed-btn{
+	margin-top: 40px;
+}
+
+.formElementsSec.appointeedetailsSec .row:last-child .static-form-container .form-field-container{
+	margin-bottom: 0;
+}
+
+.labelText {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.noteText {
+    color: #333333;
+    font-size: 16px;
+    margin: 0;
+}
+
+.inputNote {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #A50F0F;
+}
+
+.inputNote a {
+    color: #A50F0F;
+    text-decoration: underline;
+}
+
+.noMargin {
+    margin-bottom: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block1 {
+    margin-right: 3%;
+}
+
+.block1, .block2 {
+    width: 48.5%;
+}
+
+.topSpace {
+    margin-top: 15px;
+}
+
+.topSpace2 {
+    margin-top: 30px;
+}
+
+.bottomSpace {
+    padding-bottom: 0px;
+}
+
+.lastRow .static-form-container .form-field-container {
+	margin-bottom: 0;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.noBorder {
+    border-bottom: none;
+}
+
+.alignCenter {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.years {
+	position: absolute;
+    right: 40px;
+    top: 15px;
+    z-index: 1;
+    font-size: 12px;
+    line-height: 16px;
+    color: #007ABC;
+}
+
+.unit {
+	padding-left: 3px;
+}
+/****Form Style Changes End****/
+
+@media (max-width: 768px) {
+    .block1, .block2 {
+        width: 100%;
+    }
+
+    .block1 {
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+/*......................CSS For Progress Bar Start Here......................*/
+
+
+.progressbar {
+  width: 70%;
+  /*counter-reset: step;*/
+  margin: 0 auto;
+  margin-top: 0px;
+  padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+}
+
+.progressbar li {
+  list-style-type: none;
+  width: 100%;
+  
+
+  position: relative;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #A7A8AA;
+  /* Steps*/
+}
+
+.progressbar li:before {
+	content: '\2713';
+	font-size: 10px;
+padding: 2px 0;
+  width: 18px;
+  height: 18px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 5px auto;
+  border-radius: 50%;
+  background-color: #A7A8AA;
+  /* Circles*/
+}
+
+.progressbar li.activeCircle:before {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border-color: #0073CF;
+  color: white;
+  background-color: #007ABC;
+  margin: 0 auto 5px auto;
+}
+
+.progressbar li.activeCircle.noCheckmark:before{
+	content: '';
+
+}
+
+.progressbar li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #D9D9D6;
+  /*lines */
+  top: 8px;
+  left: -50%;
+  z-index: -1;
+}
+
+.progressbar li:first-child:after {
+  content: none;
+}
+
+.progressbar li.activeCircle {
+  color: #000000;
+}
+
+.progressbar li span.chekmarkTick:after{
+	display: none;
+}
+
+
+
+/*.progressbar li.activeCircle span.chekmarkTick:after{
+	content: "";
+    background-color: transparent;
+    position: absolute;
+    left: 64px;
+    top: 3px;
+    z-index: 9;
+    width: 5px;
+    border-bottom: 2px solid #000000;
+    height: 9px;
+    border-right: 2px solid #000000;
+    transform: rotate(
+45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(
+45deg);
+    display: block;
+}*/
+
+.chekmarkTick{
+	position: relative;
+}
+
+
+.progressbar li.activeCircle+ li:after {
+  background-color: #D9D9D6;
+}
+
+.progressbarWrap{
+	padding: 100px 0 20px;
+}
+
+
+@media screen and (max-width: 1199px) {
+	.progressbar li.activeCircle span.chekmarkTick:after{
+		left: 54px;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 991px) {
+
+	.progressbar{
+		width: 100%;
+	}
+	.progressbar li.activeCircle span.chekmarkTick:after {
+	    left: 58px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.progressbar {
+	    width: 100%;
+	    white-space: nowrap;
+	    overflow-x: auto;
+	    padding-bottom: 15px;
+	}
+	.progressbar li.activeCircle span.chekmarkTick:after {
+	    left: 48px;
+	}
+	
+	
+	.progressbarWrap {
+	    padding: 85px 0 10px;
+	}
+
+	.progressbar li:first-child{
+		padding-left: 0;
+	}
+
+	.progressbar li{
+		
+		padding: 0 23px;
+		
+		
+	}
+	
+}
+
+
+
+
+/*......................CSS For Progress Bar End Here......................*/
+
+
+.static-form-container .form-field-container input[type="password"]{
+	border: 1px solid #757575;
+    color: #333333;
+    height: 50px;
+    padding: 7px 17px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 991px) {
+
+	.mainheadingWrap h2{
+		    padding-top: 2px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.mainheadingWrap h2{
+		font-size: 20px;
+		padding-left: 30px;
+		padding-top: 2px;
+	}
+
+	.secTitle {
+	    font-size: 18px;
+	    
+	}
+
+	.mainCont{
+		padding: 15px;
+	}
+
+	.lastField {
+		margin-top: 27px;
+	}
+
+
+	.btn-block {
+        margin-top: 40px;
+    }
+
+    .btn-block .btn-brand-1st{
+
+        width: 100%;
+        max-width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 6;
+    }
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
